@@ -3,10 +3,10 @@ import React, { Component } from "react";
 export class Navigation extends Component {
   render() {
     return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-        <div className="container">
+      <nav id="menu" className="navbar">
+        <div className="navBox">
           <div className="navbar-header">
-            <button
+            {/**<button
               type="button"
               className="navbar-toggle collapsed"
               data-toggle="collapse"
@@ -17,49 +17,45 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
               <span className="icon-bar"></span>{" "}
-            </button>
+            </button>**/}
             <a className="navbar-brand page-scroll" href="#page-top">
-              React Landing Page
+              <p className="brandCSS">NetX</p>
             </a>{" "}
           </div>
 
-          <div
-            className="collapse navbar-collapse"
-            id="bs-example-navbar-collapse-1"
-          >
-            <ul className="nav navbar-nav navbar-right">
-              <li>
-                <a href="#about" className="page-scroll">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#event" className="page-scroll">
-                  Event
-                </a>
-              </li>
-              <li>
-                <a href="#faq" className="page-scroll">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#collaborators" className="page-scroll">
-                  Collaborators
-                </a>
-              </li>
-              <li>
-                <a href="#companies" className="page-scroll">
-                  Companies
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="page-scroll">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
+          {/**ul used to go here**/}
+          <ul className="navRight">
+            <li>
+              <a href="#about" className="page-scroll">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#event" className="page-scroll">
+                Event
+              </a>
+            </li>
+            <li>
+              <a href="#faq" className="page-scroll">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="#collaborators" className="page-scroll">
+                Collaborators
+              </a>
+            </li>
+            <li>
+              <a href="#companies" className="page-scroll">
+                Sponsors
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="page-scroll">
+                Contact Us
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     );

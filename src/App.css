@@ -28,6 +28,42 @@
   color: #61dafb;
 }
 
+.navbar {
+  background-color: #010516;
+}
+
+.brandCSS {
+  font: themeFont;
+}
+
+.navBox {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-scroll {
+  padding: 10px;
+  margin: 5px;
+  color: #fefffe;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
