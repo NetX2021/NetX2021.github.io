@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import mainLogo from '../assets/logo.png';
 
 export class Navigation extends Component {
   render() {
@@ -19,7 +20,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>**/}
             <a className="navbar-brand page-scroll" href="#page-top">
-              <p className="brandCSS">NetX</p>
+              <img className="brandCSS" src={mainLogo}/>
             </a>{" "}
           </div>
 

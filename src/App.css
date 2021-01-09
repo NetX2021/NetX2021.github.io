@@ -33,7 +33,8 @@
 }
 
 .brandCSS {
-  font: themeFont;
+  width: 100px;
+  height: auto;
 }
 
 .navBox {
