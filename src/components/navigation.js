@@ -26,35 +26,48 @@ export class Navigation extends Component {
 
           {/**ul used to go here**/}
           <ul className="navRight">
-            <li>
-              <a href="#about" className="page-scroll">
-                About
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#about" className="page-scroll">
+                  About
+                </a>
+                <div className="slider"></div>
+              </span>
             </li>
-            <li>
-              <a href="#event" className="page-scroll">
-                Event
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#event" className="page-scroll">
+                  Event
+                </a>
+              </span>
             </li>
-            <li>
-              <a href="#faq" className="page-scroll">
-                FAQ
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#faq" className="page-scroll">
+                  FAQ
+                </a>
+              </span>
             </li>
-            <li>
-              <a href="#collaborators" className="page-scroll">
-                Collaborators
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#collaborators" className="page-scroll">
+                  Collaborators
+                </a>
+              </span>
             </li>
-            <li>
-              <a href="#companies" className="page-scroll">
-                Sponsors
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#sponors" className="page-scroll">
+                  Sponsors
+                </a>
+              </span>
             </li>
-            <li>
-              <a href="#contact" className="page-scroll">
-                Contact Us
-              </a>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#contact" className="page-scroll">
+                  Contact
+                </a>
+              </span>
             </li>
           </ul>
         </div>
