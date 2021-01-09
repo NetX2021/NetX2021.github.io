@@ -34,19 +34,23 @@
 }
 
 .brandCSS {
-  width: 100px;
+  width: 150px;
   height: auto;
 }
 
+.brandCSS:active {
+  transform: scale(0.95);
+}
+
 .navBox {
-  width: 80%;
+  width: 90%;
   padding: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .navRight {
@@ -54,12 +58,37 @@
   flex-direction: row;
 }
 
+.navButtonsSpaces {
+  margin: 0px 10px 0px 10px;
+}
+
+.navButton {
+  display: inline-block;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 10px solid transparent;
+  position: relative;
+  margin: 0 auto;
+  width: 0%;
+}
+
+.navButton:hover {
+  color: red;
+  border-bottom: 10px solid #ff000081;
+  width: 100%;
+}
+
 .page-scroll {
-  padding: 10px;
   margin: 5px;
   color: #fefffe;
+  transition: all 0.5s ease-in-out;
   text-decoration: none;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page-scroll:hover {
+  color: #ff0000;
 }
 
 @font-face {
