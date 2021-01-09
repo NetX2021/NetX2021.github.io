@@ -30,6 +30,7 @@
 
 .navbar {
   background-color: #010516;
+  border-bottom: 4px solid white;
 }
 
 .brandCSS {
@@ -72,4 +73,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.topLandingBack{
+  height: 30vw;
+  background-color:  #010516;
+  border-bottom: 5vw solid white;
+  border-right: 100vw solid  #010516;
+}
+
+.landLogo{
+  width: 30vw;
+  height: auto;
+  margin-top: 5vw;
+  margin-left: 10vw;
+}
+
+.landText{
+  width: 40vw;
+  height: auto;
+  margin-left: 10vw;
+  font-size: 2vw;
+  color: white;
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
+
+.landSubtitle{
+  width: 40vw;
+  height: auto;
+  margin-left: 10vw;
+  font-size: 3vw;
+  color: white;
+}
+
+.applyButton{
+  width: 11vw;
+  height: 4vw;
+  margin-left: 11vw;
+  border-radius: 40%;
+  border: none;
+  font-style: bold;
+  background-color: #ff0000;
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.landGraphic{
+  width: 45vw;
+  height: auto;
+  position: absolute;
+  margin-left: 45vw;
+  margin-top: -15vw;
 }

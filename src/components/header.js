@@ -1,33 +1,17 @@
 import React, { Component } from "react";
+import logo from '../assets/logo.png';
+import mainPage from '../assets/constructed/Landing_page_graphic.png';
 
 export class Header extends Component {
   render() {
     return (
-      <header id="header">
-        <div className="intro">
-          <div className="overlay">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
-                  </h1>
-                  <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading"}
-                  </p>
-                  <a
-                    href="#features"
-                    className="btn btn-custom btn-lg page-scroll"
-                  >
-                    Learn More
-                  </a>{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+      <div className="topLandingBack">
+        <img src={logo} className="landLogo"></img>
+        <img src={mainPage} className="landGraphic"></img>
+        <p className="landText">Case Competition and Network Event</p>
+        <p className="landSubtitle">March 5-6th 2021 <br></br> Virtual event</p>
+        <button className="applyButton">Apply Now</button>
+      </div>
     );
   }
 }
