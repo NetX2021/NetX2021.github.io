@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import topImage from '../assets/constructed/Cell_tower_graphic.png';
+import botImage from "../assets/buildings_graphic.png";
+import benchImage from "../assets/constructed/Bench_graphic.png";
 export class about extends Component {
   render() {
     return (
@@ -22,6 +24,23 @@ export class about extends Component {
             nostrud exercitation ullamco laboris nisi
             ut aliquip ex ea
           </p>
+          <img src={botImage} className="botImage"></img>
+          <div className="botAboutBack">
+            <br></br>
+            <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
+            <p className="aboutText" style={{color: "white", marginLeft: "7%", position: "flex"}}>incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea
+            </p>
+            <img src={benchImage} style={{width: "25%", display: 'flex', marginLeft: "66%"}}></img>
+          </div>
         </div>
       </div>
     )

@@ -178,7 +178,7 @@
 /* About */
 .aboutContainer{
   width: 100%;
-  height: 60vw;
+  height: 30vw;
 }
 
 .topAboutBack{
@@ -224,4 +224,27 @@
   margin-top: -5vw;
   margin-left: 36%;
   font-family: "mainText";
+}
+
+.botAboutBack{
+  width: 100%;
+  height: 50vw;
+  background-color:#010516;
+  margin-top: -6vw;
+}
+
+.botImage{
+  width: 60%;
+  margin-left: 30%;
+  margin-top: 4vw;
+  position: flex;
+}
+
+.botTitle{
+  color: white;
+  position: flex;
+  font-size: 6vw;
+  margin-left: 6%;
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
 }
