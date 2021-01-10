@@ -40,13 +40,12 @@ export class about extends Component {
                 nostrud exercitation ullamco laboris nisi
                 ut aliquip ex ea
                 </p>
-                <img src={benchImage} style={{width: "25%", display: 'flex', marginTop: "-10vw", marginLeft: "6%"}}></img>
+                <img src={benchImage} style={{width: "25%", display: 'flex', marginLeft: "6%"}}></img>
               </div>
             </div>
             <div style={{display: "flex", flexDirection: "column"}}>
               <p className="botTitle" style={{marginLeft: "40%"}}>How We Help <span style={{color:"#ff0000"}}>Students</span></p>
               <div style={{display: "flex", flexDirection: "column"}}>
-                
               </div>
             </div>
           </div>
