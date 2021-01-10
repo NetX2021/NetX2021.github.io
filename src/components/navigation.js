@@ -20,7 +20,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>**/}
             <a className="navbar-brand page-scroll" href="#page-top">
-              <img className="brandCSS" src={mainLogo}/>
+              <img className="brandCSS" src={mainLogo} alt="NetX main logo"/>
             </a>{" "}
           </div>
 
