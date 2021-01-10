@@ -11,8 +11,8 @@ export class Header extends Component {
             <div className="topLandingBackColumns">
               
             </div>
-            <img src={logo} className="landLogo"></img>
-            <div><img src={mainPage}  className="landGraphic"></img></div>
+            <img src={logo} className="landLogo" alt="NetX main logo"></img>
+            <div><img src={mainPage}  className="landGraphic" alt="NetX city scape"></img></div>
             <p className="landText">Case Competition and Network Event</p>
             <p className="landSubtitle">March 5-6th 2021 {"\n"} <p style={{fontSize: "2vw", marginTop: "-.3vw", marginLeft: ".5vw"}}>Virtual event</p> </p>
             <button className="applyButton">Apply Now</button>
