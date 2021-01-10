@@ -95,6 +95,11 @@
   font-family: themeFont;
   src: url("iceland-regular.ttf");
 }
+
+@font-face {
+  font-family: "mainText";
+  src: url("Montserrat-Regular.ttf");
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -104,11 +109,18 @@
   }
 }
 
+/* Landing Page */
+.landContainer{
+  width: 100%;
+  height: 50vw;
+  background-color: white;
+}
+
 .topLandingBack{
   height: 30vw;
   background-color:  #010516;
   border-bottom: 5vw solid white;
-  border-right: 100vw solid  #010516;
+  border-right: 97vw solid  #010516;
 }
 
 .landLogo{
@@ -132,21 +144,27 @@
   width: 40vw;
   height: auto;
   margin-left: 10vw;
-  font-size: 3vw;
+  font-size: 2.5vw;
   color: white;
+  font-weight: bold;
+  font-family: "mainText";
+  src: url("Montserrat-Regular.ttf");
 }
 
 .applyButton{
-  width: 11vw;
+  width: 12vw;
   height: 4vw;
   margin-left: 11vw;
-  border-radius: 40%;
+  border-radius: 30vw;
   border: none;
   font-style: bold;
   background-color: #ff0000;
   color: white;
   font-size: 2vw;
   cursor: pointer;
+  font-weight: bold;
+  font-family: "mainText";
+  src: url("Montserrat-Regular.ttf");
 }
 
 .landGraphic{
@@ -155,4 +173,55 @@
   position: absolute;
   margin-left: 45vw;
   margin-top: -15vw;
+}
+
+/* About */
+.aboutContainer{
+  width: 100%;
+  height: 60vw;
+}
+
+.topAboutBack{
+  width: 100%;
+  height: 19vw;
+  background-color: #ffd1c3;
+}
+
+.mainSubtitle{
+  color:#010516;
+  position: absolute;
+  width: 40%;
+  margin-top: 3vw;
+  margin-left: 5%;
+  font-size: 6vw;
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
+
+.smallSubtitle{
+  color: #010516;
+  position: absolute;
+  width: 40%;
+  margin-top: 10vw;
+  margin-left: 5%;
+  font-size: 4vw;
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
+
+.aboutTitle{
+  color:#010516;
+  font-size: 8vw;
+  margin-left: 35%;
+  font-family: themeFont;
+  src: url("iceland-regular.ttf");
+}
+
+.aboutText{
+  color:#010516;
+  font-size: 2vw;
+  width: 55%;
+  margin-top: -5vw;
+  margin-left: 36%;
+  font-family: "mainText";
 }
