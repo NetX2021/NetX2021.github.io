@@ -31,7 +31,7 @@ export class about extends Component {
           <div className="botAboutBack">
             <br></br>
             <div className="aboutTwoColumns">
-              <div className="topLandingBackColumns">
+              <div className="aboutTextColumn">
                 <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
                 <p className="aboutText" style={{color: "white", marginLeft: "7%", position: "flex"}}>incididunt ut labore et dolore magna
                 aliqua. Ut enim ad minim veniam, quis
@@ -45,7 +45,7 @@ export class about extends Component {
                 ut aliquip ex ea
                 </p>
               </div>
-              <div className="topLandingFrontColumns">
+              <div className="aboutImgColumn">
                 <img src={benchImage} style={{width: "100%", display: 'flex'}} alt="bench with computer user on it"></img>
               </div>
             </div>
