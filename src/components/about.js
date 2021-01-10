@@ -26,20 +26,29 @@ export class about extends Component {
           </p>
           <img src={botImage} className="botImage"></img>
           <div className="botAboutBack">
-            <br></br>
-            <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
-            <p className="aboutText" style={{color: "white", marginLeft: "7%", position: "flex"}}>incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis
-            nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea
-            </p>
-            <img src={benchImage} style={{width: "25%", display: 'flex', marginLeft: "66%"}}></img>
+            <div style={{display: "flex", flexDirection: "column"}}>
+              <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
+              <div style={{display: "flex", flexDirection: "row"}}>
+                <p className="aboutText" style={{color: "white", marginLeft: "7%", position: "flex"}}>incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea
+                </p>
+                <img src={benchImage} style={{width: "25%", display: 'flex', marginTop: "-10vw", marginLeft: "6%"}}></img>
+              </div>
+            </div>
+            <div style={{display: "flex", flexDirection: "column"}}>
+              <p className="botTitle" style={{marginLeft: "40%"}}>How We Help <span style={{color:"#ff0000"}}>Students</span></p>
+              <div style={{display: "flex", flexDirection: "column"}}>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
