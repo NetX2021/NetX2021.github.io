@@ -66,15 +66,17 @@
   display: inline-block;
   color: white;
   transition: all 0.3s ease-in-out;
-  border-bottom: 10px solid transparent;
+  /*border-bottom: 10px solid transparent;*/
+  background-color: transparent;
   position: relative;
   margin: 0 auto;
   width: 0%;
 }
 
 .navButton:hover {
-  color: red;
-  border-bottom: 10px solid #ff000081;
+  color: white;
+  /*border-bottom: 10px solid #ff000081;*/
+  background-color: #ff000081;
   width: 100%;
 }
 
@@ -88,7 +90,7 @@
 }
 
 .page-scroll:hover {
-  color: #ff0000;
+  color: #ffffff;
 }
 
 @font-face {
@@ -116,7 +118,7 @@
   background-color: white;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
   .topLandingBack{
     height: 30vw;
     background-color:  #010516;
@@ -135,7 +137,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .topLandingBack{
     background-color:  #010516;
     border-bottom: 5vw solid white;
