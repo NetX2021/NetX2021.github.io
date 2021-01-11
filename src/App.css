@@ -122,16 +122,15 @@
     background-color:  #010516;
     border-bottom: 5vw solid white;
     border-right: 97vw solid  #010516;
-    display: flex;
-    flex-direction: row;
+    display: absolute;
   }
 
   .landGraphic{
     width: 45vw;
     height: auto;
-    /*position: absolute;
+    position: absolute;
     margin-left: 45vw;
-    margin-top: -15vw;*/
+    margin-top: -30vw;
   }
 }
 
