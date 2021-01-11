@@ -2,9 +2,41 @@ import React, { Component } from "react";
 import mainLogo from '../assets/logo.png';
 
 export class Navigation extends Component {
+  state = {
+    auth: false,
+    slide: 0,  // How much should the Navbar slide up or down
+    lastScrollY: 0,  // Keep track of current position in state
+  };
+
+  componentWillMount() {
+    // When this component mounts, begin listening for scroll changes
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    // If this component is unmounted, stop listening
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+  
+  handleScroll = () => {
+    const { lastScrollY } = this.state; 
+    const currentScrollY = window.scrollY;
+
+
+    if (currentScrollY > lastScrollY) {
+      this.setState({ slide: '-80px' });
+    } else {
+      this.setState({ slide: '0px' });
+    }
+    this.setState({ lastScrollY: currentScrollY });
+  };
+  
   render() {
     return (
-      <nav id="menu" className="navbar">
+      <nav id="menu" className="navbar" style={{
+        transform: `translate(0, ${this.state.slide})`,
+        transition: 'transform 150ms linear',
+      }}> 
         <div className="navBox">
           <div className="navbar-header">
             {/**<button
@@ -57,7 +89,7 @@ export class Navigation extends Component {
             </li>
             <li className="navButtonsSpaces">
               <span className="navButton">
-                <a href="#sponors" className="page-scroll">
+                <a href="#sponsors" className="page-scroll">
                   Sponsors
                 </a>
               </span>
