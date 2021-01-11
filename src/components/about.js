@@ -15,6 +15,7 @@ export class about extends Component {
             <span className="smallSubtitle"><span style={{color: "#ff0000"}}>Tech</span> Case Competition</span>
           </div>
           
+          {/* What is NetX */}
           <div className="whatIsText">
             <p className="aboutTitle">What is Net<span style={{color: "#ff0000"}}>X</span></p>
             <p className="aboutText">incididunt ut labore et dolore magna
@@ -35,6 +36,7 @@ export class about extends Component {
           
           <div className="botAboutBack">
             <br></br>
+            {/* How we help companies */}
             <div className="aboutTwoColumns">
               <div className="aboutTextColumn">
                 <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
@@ -54,10 +56,12 @@ export class about extends Component {
                 <img src={benchImage} style={{width: "100%", display: 'flex'}} alt="bench with computer user on it"></img>
               </div>
             </div>
+
+            {/* How we help students */}
             <div className="aboutTwoColumns">
-            <div className="aboutImgColumn">
-                <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", transform: "translate(20vw)"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
-                <img src={cloudImage} style={{width: "150%", display: 'flex'}} alt="bench with computer user on it">
+              <div className="aboutImgColumn">
+                <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", marginLeft: "60%"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
+                <img src={cloudImage} style={{width: "150%", display: 'flex', marginRight: "15%"}} alt="bench with computer user on it">
                 </img>
               </div>
               <div className="aboutTextColumn" style={{marginLeft: "8%"}}>
@@ -75,6 +79,10 @@ export class about extends Component {
                 </p>
               </div>
             </div>
+
+            {/* Transition Animation */}
+            
+
           </div>
         </div>
       </div>
