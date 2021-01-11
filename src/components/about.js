@@ -3,6 +3,10 @@ import topImage from '../assets/constructed/Cell_tower_graphic.png';
 import botImage from "../assets/buildings_graphic.png";
 import benchImage from "../assets/constructed/Bench_graphic.png";
 import cloudImage from "../assets/constructed/black cloud glow.png";
+import bridgeImage from "../assets/constructed/bridge.png";
+import redCloud from "../assets/constructed/red cloud.png";
+import blackCloud from "../assets/constructed/black cloud.png";
+
 
 export class about extends Component {
   render() {
@@ -10,7 +14,7 @@ export class about extends Component {
       <div id="about">
         <div className="aboutContainer">
           <div className="topAboutTitle">
-            <img src={topImage} style={{width: "50%", marginTop: "-3vw"}} alt="screen and data"></img>
+            <img src={topImage} style={{width: "50%", marginTop: "-3vw", zIndex: "2"}} alt="screen and data"></img>
             <span className="mainSubtitle">Canada's <span style={{color: "#ff0000"}}>First</span></span>
             <span className="smallSubtitle"><span style={{color: "#ff0000"}}>Tech</span> Case Competition</span>
           </div>
@@ -61,7 +65,7 @@ export class about extends Component {
             <div className="aboutTwoColumns">
               <div className="aboutImgColumn">
                 <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", marginLeft: "60%"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
-                <img src={cloudImage} style={{width: "150%", display: 'flex', marginRight: "15%"}} alt="bench with computer user on it">
+                <img src={cloudImage} style={{width: "150%", display: 'flex', marginRight: "15%"}} alt="glowing cloud with text">
                 </img>
               </div>
               <div className="aboutTextColumn" style={{marginLeft: "8%"}}>
@@ -79,10 +83,21 @@ export class about extends Component {
                 </p>
               </div>
             </div>
+            <img src={bridgeImage} style={{width: "90%", textAlign: "center",}} alt="bridge picture for cloud animation">
+            </img>
+          </div>
 
-            {/* Transition Animation */}
-            
-
+          {/* Transition Animation */}
+          <div className="aboutTwoRows">
+            <div className="floatCloudText" style={{marginLeft: "20%"}}>
+                <span style={{position: "absolute", transform: "translate(14%, 7vw)"}}>Apply your skills in a real world setting</span>
+              <img src={redCloud} style={{width: "100%"}}></img>
+            </div>
+            <div className="floatCloudText">
+                <span style={{position: "absolute", transform: "translate(14%, 6vw)"}}>Discover new technology</span>
+                <img src={blackCloud} style={{width: "50%"}}></img>
+            </div>
+              
           </div>
         </div>
       </div>
