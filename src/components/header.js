@@ -5,7 +5,7 @@ import mainPage from '../assets/constructed/Landing_page_graphic.png';
 export class Header extends Component {
   render() {
     return (
-      <div id="top-page">
+      <div id="page-top">
         <div className="landContainer">
           <div className="topLandingBack">
             <div className="headerText">
