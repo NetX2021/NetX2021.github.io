@@ -75,13 +75,6 @@ export class Navigation extends Component {
             </li>
             <li className="navButtonsSpaces">
               <span className="navButton">
-                <a href="#faq" className="page-scroll">
-                  FAQ
-                </a>
-              </span>
-            </li>
-            <li className="navButtonsSpaces">
-              <span className="navButton">
                 <a href="#collaborators" className="page-scroll">
                   Collaborators
                 </a>
@@ -91,6 +84,13 @@ export class Navigation extends Component {
               <span className="navButton">
                 <a href="#sponsors" className="page-scroll">
                   Sponsors
+                </a>
+              </span>
+            </li>
+            <li className="navButtonsSpaces">
+              <span className="navButton">
+                <a href="#faq" className="page-scroll">
+                  FAQ
                 </a>
               </span>
             </li>
