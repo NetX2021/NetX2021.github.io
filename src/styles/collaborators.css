@@ -1,0 +1,47 @@
+@font-face {
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+@font-face {
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.collabDarkBox {
+    background-color: #010516;
+}
+
+.topCollab {
+    width: 100%;
+    color: white;
+    height: 10vw;
+    display: flex;
+    font-size: 9vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+.twoCollabLogos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.tempCircle {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    border: 2px white dotted;
+    margin: 3vw;
+}
+
+.motherBoard {
+    width: 100%;
+    height: auto;
+    margin-bottom: -22vw;
+}

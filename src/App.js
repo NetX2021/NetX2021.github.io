@@ -4,6 +4,7 @@ import './styles/navigation.css';
 import './styles/header.css';
 import './styles/about.css';
 import './styles/event.css';
+import './styles/collaborators.css'
 
 import Navigation from './components/navigation';
 import Header from './components/header';
@@ -11,6 +12,7 @@ import About from './components/about';
 import Event from './components/event';
 import JsonData from './components/data.json';
 import road from "./assets/Road_design.png";
+import { Collaborators } from './components/collaborators';
 
 export class App extends Component {
   state = {
@@ -32,6 +34,7 @@ export class App extends Component {
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />
         <Event/>
+        <Collaborators />
       </div>
     )
   }
