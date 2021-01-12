@@ -111,19 +111,36 @@
     src: url("iceland-regular.ttf");
   }
   
-  .floatCloudText{
+  .floatRedCloudText{
     color: white;
     font-size: 4vw;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
     display: flex;
     flex-direction: column;
-    
-    /*animation: moveclouds 10s linear infinite;
-    animation-iteration-count: 1;*/
+    animation: moveRedCloud 6s linear infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+  }
+
+  .floatBlackCloudText{
+    color: white;
+    font-size: 4vw;
+    font-family: themeFont;
+    src: url("iceland-regular.ttf");
+    display: flex;
+    flex-direction: column;
+    animation: moveBlackCloud 4s linear infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
   }
   
-  @keyframes moveclouds {
-    0% {right: -50%;}
-      100% {right: 20%;}
+  @keyframes moveRedCloud {
+    0%{transform: translateX(125%);}
+    100%{transform: translateX(30%);}
+  }
+
+  @keyframes moveBlackCloud {
+    0%{transform: translateX(-50%);}
+    100%{transform: translateX(0%);}
   }

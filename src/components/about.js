@@ -88,12 +88,12 @@ export class about extends Component {
           </div>
 
           {/* Transition Animation */}
-          <div className="aboutTwoRows">
-            <div className="floatCloudText" style={{marginLeft: "20%"}}>
+          <div className="aboutTwoRows" style={{overflow: "hidden"}}>
+            <div className="floatRedCloudText" style={{width: "80%"}}>
                 <span style={{position: "absolute", transform: "translate(14%, 7vw)"}}>Apply your skills in a real world setting</span>
               <img src={redCloud} style={{width: "100%"}}></img>
             </div>
-            <div className="floatCloudText">
+            <div className="floatBlackCloudText">
                 <span style={{position: "absolute", transform: "translate(14%, 6vw)"}}>Discover new technology</span>
                 <img src={blackCloud} style={{width: "50%"}}></img>
             </div>
