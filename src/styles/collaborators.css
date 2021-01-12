@@ -8,8 +8,22 @@
     src: url("./Montserrat-Regular.ttf");
 }
 
+.collabBuildings {
+    margin-top: 7vw;
+    padding-top: 5vw;
+    margin-bottom: -1.9vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buildingPicItself {
+    width: 70vw;
+}
+
 .collabDarkBox {
     background-color: #010516;
+    margin-bottom: 22vw;
 }
 
 .topCollab {
@@ -40,8 +54,48 @@
     margin: 3vw;
 }
 
+.invisibleCollab {
+    width: 100%;
+    padding-left: 1vw;
+    margin-top: -5vw;
+    color: #ff0000;
+    /* height: 10vw;*/
+    display: flex;
+    font-size: 8vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+    transform: translateY(23.5vw);
+    
+}
+
 .motherBoard {
     width: 100%;
     height: auto;
     margin-bottom: -22vw;
+}
+
+.collabLightBox {
+    display: flex;
+    justify-content: center;
+}
+
+.tempCircleDark {
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+    border: 5px black solid;
+    background-color: white;
+    margin: 3vw;
+}
+
+.collabNames {
+    height: 5vw;
+    width: 20vw;
+    border-radius: 0.5vw;
+    border: 5px red solid;
+    background-color: white;
+    margin: 3vw;
 }
