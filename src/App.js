@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import './event.css';
+import './styles/App.css';
+import './styles/navigation.css';
+import './styles/landing.css';
+import './styles/about.css';
+import './styles/event.css';
+
 import Navigation from './components/navigation';
 import Header from './components/header';
 import About from './components/about';
