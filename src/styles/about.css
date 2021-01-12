@@ -114,6 +114,7 @@
   
   .floatRedCloudText{
     color: white;
+    width: 80%;
     font-size: 4vw;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
