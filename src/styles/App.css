@@ -13,6 +13,13 @@
   }
 }
 
+.bigRoad {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: 30vw !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

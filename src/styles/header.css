@@ -1,15 +1,15 @@
 .landContainer{
     width: 100%;
-    margin-top: 80px !important;
     height: 50vw;
     background-color: white;
   }
   
   .topLandingBack{
     height: 30vw;
+    padding-top: 80px !important;
     background-color:  #010516;
     border-bottom: 5vw solid white;
-    border-right: 97vw solid  #010516;
+    border-right: 100vw solid  #010516;
     display: flex;
     flex-direction: row;
   }

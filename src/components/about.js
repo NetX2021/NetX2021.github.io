@@ -83,7 +83,7 @@ export class about extends Component {
                 </p>
               </div>
             </div>
-            <img src={bridgeImage} style={{width: "90%", textAlign: "center",}} alt="bridge picture for cloud animation">
+            <img src={bridgeImage} style={{width: "90%", textAlign: "center",}} alt="bridge for cloud animation">
             </img>
           </div>
 
@@ -91,11 +91,11 @@ export class about extends Component {
           <div className="aboutTwoRows" style={{overflow: "hidden"}}>
             <div className="floatRedCloudText" style={{width: "80%"}}>
                 <span style={{position: "absolute", transform: "translate(14%, 7vw)"}}>Apply your skills in a real world setting</span>
-              <img src={redCloud} style={{width: "100%"}}></img>
+              <img src={redCloud} style={{width: "100%"}} alt="red cloud animation"></img>
             </div>
             <div className="floatBlackCloudText">
                 <span style={{position: "absolute", transform: "translate(14%, 6vw)"}}>Discover new technology</span>
-                <img src={blackCloud} style={{width: "50%"}}></img>
+                <img src={blackCloud} style={{width: "50%"}} alt="blue cloud animation"></img>
             </div>
               
           </div>
