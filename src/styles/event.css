@@ -10,8 +10,8 @@
 
 .eventContainer{
     width: 100%;
-    background-color: white;
     margin-top: 2.4vw !important;
+    text-align: center;
 }
 
 .topEventTitle{
@@ -27,4 +27,66 @@
     src: url("./iceland-regular.ttf");
 }
 
+.eventBox{
+    width: 80%;
+    height: 40vw;
+    margin-top: 8vw;
+    background-color:#ffd1c3;
+    display: inline-block;
+    border-radius: 5vw;
+}
+
+.eventTwoRows{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.eventTwoColumns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.eventImgColumn{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.eventTextColumn{
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.eventBoxTitle{
+    font-size: 8vw;
+    color: white;
+    font-family: themeFont;
+    margin-left: 5%;
+    src: url("./iceland-regular.ttf");
+}
+
+.eventBoxText{
+    color: white;
+    font-size: 1.7vw;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3%;
+    cursor: pointer;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
 
