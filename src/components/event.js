@@ -7,7 +7,7 @@ export class event extends Component {
         <div id="event">
           <div className="eventContainer">
             <div className="topEventTitle">
-              More Than a <span style={{marginLeft: "2vw", color: "#ff0000"}}> Conferance</span>
+              More Than a <span style={{marginLeft: "2vw", color: "#ff0000"}}> Conference</span>
             </div>
           </div>
           <div>
