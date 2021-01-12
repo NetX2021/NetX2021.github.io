@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import './event.css';
+import './styles/App.css';
+import './styles/navigation.css';
+import './styles/header.css';
+import './styles/about.css';
+import './styles/event.css';
+
 import Navigation from './components/navigation';
 import Header from './components/header';
 import About from './components/about';
@@ -23,7 +27,7 @@ export class App extends Component {
   render() {
     return (
       <div>
-        <img src={road} style={{width: "100%", position: "absolute", zIndex: "-1"}} alt="road that goes through whole page"></img>
+        <img src={road} className="bigRoad" alt="road that goes through whole page"></img>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
         <About data={this.state.landingPageData.About} />

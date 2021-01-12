@@ -1,6 +1,17 @@
+@font-face {
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+  }
+
 .eventContainer{
     width: 100%;
     background-color: white;
+    margin-top: 2.4vw !important;
 }
 
 .topEventTitle{
@@ -13,9 +24,7 @@
     justify-content: center;
     align-items: center;
     font-family: themeFont;
-    src: url("iceland-regular.ttf");
+    src: url("./iceland-regular.ttf");
 }
 
-.slideShow{
-    
-}
+
