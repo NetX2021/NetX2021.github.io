@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+/* vvvv START OF NAV vvvv */
+
 .navbar {
   top: 0;
   position: fixed;
@@ -108,6 +110,8 @@
   transition: all 0s ease-in-out;
   color: #ff6565;
 }
+
+/* ^^^^ END OF NAV ^^^^ */
 
 @font-face {
   font-family: themeFont;
