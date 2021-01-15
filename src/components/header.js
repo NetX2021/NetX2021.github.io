@@ -11,7 +11,7 @@ export class Header extends Component {
             <div className="headerText">
               <img src={logo} className="landLogo" alt="NetX main logo"></img>
               <p className="landText">Case Competition and Network Event</p>
-              <p className="landSubtitle">March 5-6th 2021 {"\n"} <p style={{fontSize: "2vw", marginTop: "-.3vw", marginLeft: ".5vw"}}>Virtual event</p> </p>
+              <p className="landSubtitle">March 5-6th 2021 {"\n"} <p style={{fontSize: "28px", marginTop: "-1%", marginLeft: "5%"}}>Virtual event</p> </p>
               <button className="applyButton">Apply Now</button>
             </div>
 

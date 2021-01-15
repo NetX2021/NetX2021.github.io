@@ -16,6 +16,12 @@
   .brandCSS:active {
     transform: scale(0.95);
   }
+
+  @media only screen and (max-width: 800px) {
+    .navbar{
+      height: 40px;
+    }
+  }
   
   .navBox {
     width: 90%;
