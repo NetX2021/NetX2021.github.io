@@ -3,8 +3,7 @@ import motherboard from '../assets/constructed/Circuit_board.png';
 import mcgillBuildings from '../assets/constructed/McGill_Buildings.png';
 
 export class Collaborators extends Component {
-    
-    
+
     render() {
         return (
             <div id="collaborators">

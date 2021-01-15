@@ -14,7 +14,7 @@ export class faq extends Component {
                     <div className="faqSubtitle">When is it <div className="arrow-down" style={{transform: "translate(30vw,-3vw)"}}></div></div>
                 </div>
                 <div className="faqImgColumn">
-                    <img src={faqImage} style={{width: "40vw"}}></img>
+                    <img src={faqImage} style={{width: "40vw"}} alt="FAQ city scape"></img>
                 </div>
             </div>
         </div>
