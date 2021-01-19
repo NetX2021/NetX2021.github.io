@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import mainLogo from '../assets/logo.png';
+import hamburger from '../assets/hamburger.png';
 
 export class Navigation extends Component {
   state = {
@@ -30,13 +31,22 @@ export class Navigation extends Component {
     }
     this.setState({ lastScrollY: currentScrollY });
   };
+
+  on() {
+    document.getElementById("navOverlay").style.display = "block";
+  }
   
+  off() {
+    document.getElementById("navOverlay").style.display = "none";
+  }
+
   render() {
     return (
       <nav id="menu" className="navbar" style={{
         transform: `translate(0, ${this.state.slide})`,
         transition: 'transform 150ms linear',
       }}> 
+        <div id="navOverlay" onClick={this.off}></div>
         <div className="navBox">
           <div className="navbar-header">
             {/**<button
@@ -103,6 +113,10 @@ export class Navigation extends Component {
             </li>
           </ul>
         </div>
+
+        <button className="smallScreenButton" onclick={this.on}>
+          <img className="smallScreen" src={hamburger} alt="hamburger menu icon"/>
+        </button>
       </nav>
     );
   }

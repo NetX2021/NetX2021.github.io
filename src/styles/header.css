@@ -6,63 +6,70 @@
   }
   
   .topLandingBack{
-    height: 30vw;
+    height: 40vw;
     padding-top: 80px !important;
-    background-color:  #010516;
-    border-bottom: 5vw solid white;
-    border-right: 100vw solid  #010516;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(3deg, #fff 0%, #fff 20%, #010516 20.5%, #010516 0%);
     display: flex;
     flex-direction: row;
   }
-  
-  .landGraphic{
-    width: 45vw;
-    height: auto;
-    /*position: absolute;
-    margin-left: 45vw;
-    margin-top: -15vw;*/
+
+  .headerText{
+    margin-left: 10%;
+  }
+
+  .headerImage{
+    margin-left: 10%;
   }
   
-  /*@media only screen and (max-width: 800px) {
+
+  
+  @media only screen and (max-width: 800px) {
     .topLandingBack{
       background-color:  #010516;
-      border-bottom: 5vw solid white;
-      border-right: 97vw solid  #010516;
+      background: linear-gradient(3deg, #fff 0%, #fff 20%, #010516 21%, #010516 0%);
       display: flex;
       flex-direction: column-reverse;
     }
   
     .landGraphic{
-      width: 60vw;
-      height: auto;
-      position: absolute;
-      margin-left: 45vw;
-      margin-top: -15vw;
+      width: 100px;
     }
-  }*/
+
+    .headerImage{
+      margin-top: 10vw;
+    }
+
+    img.landLogo{
+      display: none;
+    }
+  }
+
+  .landGraphic{
+    width: 500px;
+  }
   
   .landLogo{
-    width: 30vw;
+    display: block;
+    width: 350px;
     height: auto;
-    margin-top: 5vw;
-    margin-left: 10vw;
+    margin-top: 20%;
   }
   
   .landText{
-    width: 40vw;
+    width: 140%;
     height: auto;
-    margin-left: 10vw;
-    font-size: 2vw;
+    font-size: 25px;
     color: white;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
   }
   
   .landSubtitle{
-    width: 40vw;
+    width: 80%;
     height: auto;
-    margin-left: 10vw;
-    font-size: 2.5vw;
+    font-size: 32px;
     color: white;
     font-weight: bold;
     font-family: "mainText";
@@ -70,15 +77,15 @@
   }
   
   .applyButton{
-    width: 12vw;
-    height: 4vw;
-    margin-left: 11vw;
+    width: 50%;
+    height: auto;
+    padding: 10px;
     border-radius: 30vw;
     border: none;
     font-style: bold;
     background-color: #ff0000;
     color: white;
-    font-size: 2vw;
+    font-size: 25px;
     cursor: pointer;
     font-weight: bold;
     font-family: "mainText";
