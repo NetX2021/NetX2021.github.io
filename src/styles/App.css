@@ -17,8 +17,17 @@ body{
   }
 }
 
+@media screen and (min-width: 1800px){
+  .bigRoad {
+    width: 1700px !important;
+    position: absolute;
+    z-index: -1;
+    margin-top: 30vw !important;
+  }
+}
+
 .bigRoad {
-  width: 100%;
+  width: 1200px;
   position: absolute;
   z-index: -1;
   margin-top: 30vw !important;
