@@ -74,7 +74,43 @@
 
 }
 
-@media screen and (max-width: 851px){
+@media screen and (max-width: 992px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 280px !important; 
+        text-align: center;
+    }
+
+    .topEventTitle{
+        height: 100px !important;
+        font-size: 55px !important;
+    }
+
+    .eventBox{
+        width: 600px !important;
+        margin-top: 40px !important;
+        height: 300px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 40px !important;
+        margin-left: 65px !important;
+        margin-top: 40px !important;
+        line-height: 18px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 15px !important;
+    }
+    
+    .eventBoxImg{
+        width: 160px !important;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
     .eventContainer{
         width: 100%;
         margin-top: 250px !important; 
@@ -83,31 +119,67 @@
 
     .topEventTitle{
         height: 90px !important;
-        font-size: 55px !important;
+        font-size: 50px !important;
     }
 
     .eventBox{
-        width: 500px !important;
-        margin-top: 40px !important;
-        height: 200px !important;
+        width: 450px !important;
+        margin-top: 50px !important;
+        height: 280px !important;
     }
     
     .eventBoxTitle{
         font-size: 30px !important;
-        margin-left: 65px !important;
-        margin-top: 20px !important;
-        line-height: 18px !important;
+        margin-left: 50px !important;
+        margin-top: 40px !important;
+        line-height: 15px !important;
     }
     
     
     .eventBoxText{
-        font-size: 10px !important;
+        font-size: 11px !important;
+    }
+    
+    .eventBoxImg{
+        width: 140px !important;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 150px !important; 
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .topEventTitle{
+        height: 60px !important;
+        font-size: 28px !important;
+    }
+
+    .eventBox{
+        width: 310px !important;
+        margin-top: 50px !important;
+        height: 220px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 20px !important;
+        margin-left: 35px !important;
+        margin-top: 20px !important;
+        line-height: 10px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 9px !important;
     }
     
     .eventBoxImg{
         width: 100px !important;
     }
-    
 }
 
 .eventContainer{

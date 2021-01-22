@@ -26,22 +26,29 @@ body {
 
 @media only screen and (max-width: 1200px){
   .bigRoad {
-    width: 800px !important;
-    margin-top: 550px !important;
+    width: 1000px !important;
+    margin-top: 450px !important;
   }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 992px){
   .bigRoad {
-    width: 650px !important;
-    margin-top: 650px !important;
+    width: 750px !important;
+    margin-top: 350px !important;
   }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 767px){
   .bigRoad {
     width: 500px !important;
-    margin-top: 700px !important;
+    margin-top: 350px !important;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .bigRoad{
+    width: 310px !important;
+    margin-top: 330px !important;
   }
 }
 
@@ -50,6 +57,7 @@ body {
   position: absolute;
   z-index: -1;
   margin-top: 350px;
+  overflow-x: hidden !important;
 }
 
 .App-header {
