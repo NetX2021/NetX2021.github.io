@@ -17,12 +17,31 @@ body {
   }
 }
 
-@media screen and (min-width: 1800px){
+@media only screen and (min-width: 1800px){
   .bigRoad {
     width: 1700px !important;
-    position: absolute;
-    z-index: -1;
-    margin-top: 30vw !important;
+    margin-top: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .bigRoad {
+    width: 800px !important;
+    margin-top: 550px !important;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .bigRoad {
+    width: 650px !important;
+    margin-top: 650px !important;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .bigRoad {
+    width: 500px !important;
+    margin-top: 700px !important;
   }
 }
 
@@ -30,7 +49,7 @@ body {
   width: 1200px;
   position: absolute;
   z-index: -1;
-  margin-top: 30vw !important;
+  margin-top: 350px;
 }
 
 .App-header {
