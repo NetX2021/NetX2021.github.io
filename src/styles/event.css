@@ -29,11 +29,11 @@
 
 .eventBox{
     width: 80%;
-    height: 400px;
+    height: 420px;
     margin-top: 100px;
     background-color:#ffd1c3;
     display: inline-block;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .eventTwoRows{
@@ -48,6 +48,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .eventImgColumn{
@@ -68,21 +69,17 @@
     font-family: themeFont;
     margin-left: 30px;
     src: url("./iceland-regular.ttf");
+    border-bottom: 15px solid transparent;
+    line-height: 45px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
 }
 
-.eventBoxSpan{
-    color: gray;
-}
 
-.eventBoxSpan:hover{
-    color: "#ff0000";
-}
-.eventBoxTitle:hover{
-    color: white;
-}
 .eventBoxText{
-    color: white;
-    font-size: 22px;
+    color: #010516;
+    font-size: 24px;
     font-family: "mainText";
     src: url("./Montserrat-Regular.ttf");
 }
