@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NetX/static/css/main.a1e32eff.chunk.css",
-    "main.js": "/NetX/static/js/main.e49e7ff5.chunk.js",
-    "main.js.map": "/NetX/static/js/main.e49e7ff5.chunk.js.map",
+    "main.css": "/NetX/static/css/main.ad3fb978.chunk.css",
+    "main.js": "/NetX/static/js/main.a2f09d87.chunk.js",
+    "main.js.map": "/NetX/static/js/main.a2f09d87.chunk.js.map",
     "runtime-main.js": "/NetX/static/js/runtime-main.b984bebc.js",
     "runtime-main.js.map": "/NetX/static/js/runtime-main.b984bebc.js.map",
     "static/js/2.370185ec.chunk.js": "/NetX/static/js/2.370185ec.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6827641c.chunk.js": "/NetX/static/js/3.6827641c.chunk.js",
     "static/js/3.6827641c.chunk.js.map": "/NetX/static/js/3.6827641c.chunk.js.map",
     "index.html": "/NetX/index.html",
-    "static/css/main.a1e32eff.chunk.css.map": "/NetX/static/css/main.a1e32eff.chunk.css.map",
+    "static/css/main.ad3fb978.chunk.css.map": "/NetX/static/css/main.ad3fb978.chunk.css.map",
     "static/js/2.370185ec.chunk.js.LICENSE.txt": "/NetX/static/js/2.370185ec.chunk.js.LICENSE.txt",
     "static/media/Bench_graphic.362152c8.png": "/NetX/static/media/Bench_graphic.362152c8.png",
     "static/media/Case_comp_Graphic.4d535560.png": "/NetX/static/media/Case_comp_Graphic.4d535560.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.b984bebc.js",
     "static/js/2.370185ec.chunk.js",
-    "static/css/main.a1e32eff.chunk.css",
-    "static/js/main.e49e7ff5.chunk.js"
+    "static/css/main.ad3fb978.chunk.css",
+    "static/js/main.a2f09d87.chunk.js"
   ]
 }
