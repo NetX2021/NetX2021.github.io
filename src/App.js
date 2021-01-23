@@ -7,6 +7,7 @@ import './styles/event.css';
 import './styles/collaborators.css';
 import './styles/faq.css'
 
+
 import Navigation from './components/navigation';
 import Header from './components/header';
 import About from './components/about';

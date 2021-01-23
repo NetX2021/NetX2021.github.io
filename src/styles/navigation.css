@@ -132,6 +132,7 @@ img.smallScreen {
     right: 20px;
     top: 20px;
     padding: 15px;
+    z-index: 21;
   }
 
   img.smallScreen {
@@ -142,4 +143,61 @@ img.smallScreen {
     right: 20px;
     top: 20px;
   }
+}
+.openedMenu {
+  margin-top: -80px;
+  height: 120vh;
+  width: 100vw;
+  position: fixed;
+  background-color: #010516;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+}
+
+.navButtonsSpacesSmall {
+  padding: 20px;
+  width: 30%;
+}
+
+.navButtonSmall {
+  display: inline-block;
+  color: white;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 10px solid transparent;
+  /*background-color: transparent;
+  position: relative;
+  height: 3vw;*/
+  width: 0%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.navButtonSmall:hover {
+  color: white;
+  border-bottom: 10px solid #ff0000;
+  /*background-color: #ff000081;
+  height: 3vw;*/
+  width: 100%;
+  height: 30px;
+}
+
+.page-scrollSmall {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fefffe;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.page-scrollSmall:hover {
+  color: white;
+}
+
+.page-scrollSmall:active {
+  transition: all 0s ease-in-out;
+  color: #ff6565;
 }

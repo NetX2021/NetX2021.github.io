@@ -2,6 +2,8 @@ body {
   overflow-x: hidden;
 }
 
+
+
 .App {
   text-align: center;
 }
@@ -74,7 +76,6 @@ body {
 .App-link {
   color: #61dafb;
 }
-
 
 @font-face {
   font-family: themeFont;
