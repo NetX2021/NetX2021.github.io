@@ -3,6 +3,7 @@ import mainLogo from '../assets/logo.png';
 import hamburger from '../assets/hamburger.png';
 
 export class Navigation extends Component {
+  
   state = {
     auth: false,
     slide: 0,  // How much should the Navbar slide up or down
@@ -32,12 +33,46 @@ export class Navigation extends Component {
     this.setState({ lastScrollY: currentScrollY });
   };
 
-  on() {
-    document.getElementById("navOverlay").style.display = "block";
+  constructor() {
+    super();
+    
+    this.state = {
+      showMenu: false,
+    }
+    
+    this.showMenu = this.showMenu.bind(this);
+    this.closeMenu = this.closeMenu.bind(this);
+    this.clicking = this.clicking.bind(this);
   }
   
-  off() {
-    document.getElementById("navOverlay").style.display = "none";
+  clicking(event) {
+    event.preventDefault();
+    
+    if (this.showMenu.state===true) {
+      this.setState({
+        showMenu: false,
+      });
+    } else {
+      this.setState({
+        showMenu: true,
+      });
+    }
+  }
+
+  showMenu(event) {
+    event.preventDefault();
+    
+    this.setState({
+      showMenu: true,
+    });
+  }
+
+  closeMenu(event) {
+    event.preventDefault();
+
+    this.setState({
+      showMenu: false,
+    });
   }
 
   render() {
@@ -73,7 +108,6 @@ export class Navigation extends Component {
                 <a href="#about" className="page-scroll">
                   About
                 </a>
-                <div className="slider"></div>
               </span>
             </li>
             <li className="navButtonsSpaces">
@@ -114,9 +148,63 @@ export class Navigation extends Component {
           </ul>
         </div>
 
-        <button className="smallScreenButton" onclick={this.on}>
+        <button className="smallScreenButton" onClick={this.clicking}>
           <img className="smallScreen" src={hamburger} alt="hamburger menu icon"/>
         </button>
+        
+        {
+          this.state.showMenu
+            ? (
+              <div className="openedMenu">
+                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#about" className="page-scrollSmall">
+                      About
+                    </a>
+                    <div className="slider"></div>
+                  </span>
+                </li>
+                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#event" className="page-scrollSmall">
+                      Event
+                    </a>
+                  </span>
+                </li>
+                <li className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#collaborators" onClick={this.closeMenu} className="page-scrollSmall">
+                      Collaborators
+                    </a>
+                  </span>
+                </li>
+                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#sponsors" className="page-scrollSmall">
+                      Sponsors
+                    </a>
+                  </span>
+                </li>
+                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#faq" className="page-scrollSmall">
+                      FAQ
+                    </a>
+                  </span>
+                </li>
+                <li className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#contact" onClick={this.closeMenu} className="page-scrollSmall">
+                      Contact
+                    </a>
+                  </span>
+                </li>
+              </div>
+            )
+            : (
+              null
+            )
+        }
       </nav>
     );
   }
