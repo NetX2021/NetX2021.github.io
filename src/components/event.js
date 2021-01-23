@@ -114,8 +114,9 @@ export class event extends Component {
             <div className="eventBox">
               <div className="eventTwoRows">
                 <div className="eventTwoColumns">
-                  <div id="NetworkEvent" className="eventBoxTitle" onMouseEnter={() => this.hover()} onMouseLeave={() => this.hover2()} onClick={this.NetworkActive}>
-                    <span id="Net">Network</span> Event</div>
+                  <div id="NetworkEvent" className="eventBoxTitle" onMouseEnter={() => this.hover()} onMouseLeave={() => this.hover2()} onClick={this.NetworkActive}
+                  style={{color: "white", borderBottom:"10px solid #ff0000", transition:"all 0.3s ease-in-out"}}>
+                    <span id="Net" style={{color:"#ff0000", transition:"all 0.3s ease-in-out"}}>Network</span> Event</div>
                   <div id="CaseComp" className="eventBoxTitle" onMouseEnter={() => this.hover3()} onMouseLeave={() => this.hover4()} onClick={this.CaseActive}>
                     <span id="Case">Case</span> Comp</div>
                 </div>

@@ -3,10 +3,7 @@ import topImage from '../assets/constructed/Cell_tower_graphic.png';
 import botImage from "../assets/buildings_graphic.png";
 import benchImage from "../assets/constructed/Bench_graphic.png";
 import cloudImage from "../assets/constructed/black cloud glow.png";
-import bridgeImage from "../assets/constructed/bridge.png";
-import redCloud from "../assets/constructed/red cloud.png";
-import blackCloud from "../assets/constructed/black cloud.png";
-
+import circuitBoard from "../assets/Circuit_board.png";
 
 export class about extends Component {
   render() {
@@ -45,7 +42,7 @@ export class about extends Component {
                 </p>
               </div>
               <div className="aboutImgColumn">
-                <img src={benchImage} style={{width: "100%", display: 'flex'}} alt="bench with computer user on it"></img>
+                <img src={benchImage} className="botAboutImage" alt="bench with computer user on it"></img>
               </div>
             </div>
 
@@ -54,7 +51,7 @@ export class about extends Component {
               <div className="aboutImgColumn">
                 <img src={cloudImage} className="botAboutImage" alt="glowing cloud with text">
                 </img>
-                <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", marginLeft: "60%"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
+                <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", marginLeft: "50%"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
 
               </div>
               <div className="aboutTextColumn">
@@ -65,22 +62,12 @@ export class about extends Component {
                 </p>
               </div>
             </div>
-            <img src={bridgeImage} style={{width: "90%", textAlign: "center",}} alt="bridge for cloud animation">
+          
+          </div>
+          <img src={circuitBoard} className="circuitImage" alt="circuit board design">
             </img>
-          </div>
 
-          {/* Transition Animation */}
-          <div className="aboutTwoRows" style={{overflow: "hidden"}}>
-            <div className="floatRedCloudText">
-                <span style={{position: "absolute", transform: "translate(14%, 7vw)"}}>Apply your skills in a real world setting</span>
-              <img src={redCloud} style={{width: "100%"}} alt="red cloud animation"></img>
-            </div>
-            <div className="floatBlackCloudText">
-                <span style={{position: "absolute", transform: "translate(14%, 6vw)"}}>Discover new technology</span>
-                <img src={blackCloud} style={{width: "50%"}} alt="blue cloud animation"></img>
-            </div>
-              
-          </div>
+        
         </div>
       </div>
     )

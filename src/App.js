@@ -30,11 +30,11 @@ export class App extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{overflow: "hidden"}}>
         <img src={road} className="bigRoad" alt="road that goes through whole page"></img>
         <Navigation />
-        <Header data={this.state.landingPageData.Header} />
-        <About data={this.state.landingPageData.About} />
+        <Header />
+        <About />
         <Event/>
         <Collaborators />
         <FAQ/>

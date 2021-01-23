@@ -1,12 +1,11 @@
 .landContainer{
     width: 100%;
-    height: 50vw;
+    height: 600px;
     background-color: white;
-    overflow: hidden;
   }
   
   .topLandingBack{
-    height: 40vw;
+    height: 500px;
     padding-top: 80px !important;
     width: 100%;
     position: absolute;
@@ -16,24 +15,35 @@
   }
 
   .headerText{
-    margin-left: 10%;
+    margin-left: 150px;
   }
 
   .headerImage{
-    margin-left: 10%;
+    margin-left: 150px;
   }
 
 
-  @media only screen and (min-width: 1800px){
+  @media screen and (min-width: 1800px){
+
+    .landContainer{
+      width: 100%;
+      height: 900px;
+      background-color: white;
+      overflow: hidden;
+    }
 
     .topLandingBack{
-      height: 40vw;
+      height: 770px;
       padding-top: 80px !important;
       width: 100%;
       position: absolute;
       background: linear-gradient(3deg, #fff 0%, #fff 28%, #010516 28.5%, #010516 0%);
       display: flex;
       flex-direction: row;
+    }
+
+    .headerText{
+      margin-left: 200px !important;
     }
 
     .landGraphic{
@@ -55,27 +65,269 @@
       font-size: 42px !important;
     }
   }
-  
 
-  
-  @media only screen and (max-width: 800px) {
-    .topLandingBack{
-      background-color:  #010516;
-      background: linear-gradient(3deg, #fff 0%, #fff 20%, #010516 21%, #010516 0%);
-      display: flex;
-      flex-direction: column-reverse;
+  @media screen and (max-width: 1200px){
+    .landContainer{
+      width: 100%;
+      height: 600px;
+      background-color: white;
     }
-  
-    .landGraphic{
-      width: 100px;
+
+    .topLandingBack{
+      height: 450px;
+      background-color:  #010516;
+      background: linear-gradient(3deg, #fff 0%, #fff 12%, #010516 13%, #010516 0%);
+      display: flex;
+    }
+
+    
+    .headerText{
+      margin: auto;      
     }
 
     .headerImage{
-      margin-top: 10vw;
+      margin: auto;
+      
+    }
+  
+    .landGraphic{
+      width: 480px !important;
     }
 
     img.landLogo{
-      display: none;
+      width: 280px;
+    }
+
+    .landText{
+      width: 120%;
+      height: auto;
+      font-size: 25px !important;
+    }
+    
+    .landSubtitle{
+      width: 250px !important;
+      height: auto;
+      font-size: 25px !important;
+      color: white;
+      font-weight: bold;
+      font-family: "mainText";
+      src: url("Montserrat-Regular.ttf");
+    }
+
+    .landSubtitle2{
+      font-size: 18px !important;
+      margin-top: -1%;
+      margin-left: 5%;
+    }
+    
+    .applyButton{
+      width: 100px !important;
+      margin-top: 10px;
+      padding: 6px !important; 
+      background-color: #ff0000;
+      font-size: 15px !important;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .landContainer{
+      width: 100%;
+      height: 400px;
+      background-color: white;
+    }
+
+    .topLandingBack{
+      height: 300px;
+      background-color:  #010516;
+      background: linear-gradient(3deg, #fff 0%, #fff 9%, #010516 10%, #010516 0%);
+      display: flex;
+    }
+
+    
+    .headerText{
+      margin: auto;      
+    }
+
+    .headerImage{
+      margin: auto;
+      
+    }
+  
+    .landGraphic{
+      width: 360px !important;
+    }
+
+
+    img.landLogo{
+      width: 180px;
+    }
+
+    .landText{
+      width: 120%;
+      height: auto;
+      font-size: 18px !important;
+      color: white;
+      font-family: themeFont;
+      src: url("iceland-regular.ttf");
+    }
+    
+    .landSubtitle{
+      width: 180px !important;
+      height: auto;
+      font-size: 20px !important;
+      color: white;
+      font-weight: bold;
+      font-family: "mainText";
+      src: url("Montserrat-Regular.ttf");
+    }
+
+    .landSubtitle2{
+      font-size: 14px !important;
+      margin-top: -1%;
+      margin-left: 5%;
+    }
+    
+    .applyButton{
+      width: 120px !important;
+      margin-top: 10px;
+      padding: 6px !important; 
+      background-color: #ff0000;
+      font-size: 18px !important;
+    }
+
+  }
+
+  @media screen and (max-width: 767px) {
+    .landContainer{
+      width: 100%;
+      height: 340px;
+      background-color: white;
+    }
+
+    .topLandingBack{
+      height: 240px;
+      background-color:  #010516;
+      background: linear-gradient(3deg, #fff 0%, #fff 14%, #010516 15%, #010516 0%);
+      display: flex;
+    }
+
+    
+    .headerText{
+      margin: auto;      
+    }
+
+    .headerImage{
+      margin: auto;
+      
+    }
+  
+    .landGraphic{
+      width: 260px !important;
+    }
+
+
+    img.landLogo{
+      width: 110px;
+    }
+
+    .landText{
+      width: 120%;
+      height: auto;
+      font-size: 11px !important;
+      color: white;
+      font-family: themeFont;
+      src: url("iceland-regular.ttf");
+    }
+    
+    .landSubtitle{
+      width: 160px !important;
+      height: auto;
+      font-size: 12px !important;
+      color: white;
+      font-weight: bold;
+      font-family: "mainText";
+      src: url("Montserrat-Regular.ttf");
+    }
+
+    .landSubtitle2{
+      font-size: 6px !important;
+      margin-top: -1%;
+      margin-left: 5%;
+    }
+    
+    .applyButton{
+      width: 70px !important;
+      margin-top: 10px;
+      padding: 6px !important; 
+      background-color: #ff0000;
+      font-size: 10px !important;
+    }
+  }
+
+  @media screen and (max-width: 480px){
+    .landContainer{
+      width: 100%;
+      height: 270px;
+      background-color: white;
+    }
+
+    .topLandingBack{
+      height: 200px;
+      background-color:  #010516;
+      background: linear-gradient(3deg, #fff 0%, #fff 16%, #010516 17%, #010516 0%);
+      display: flex;
+    }
+
+    
+    .headerText{
+      margin: auto;      
+    }
+
+    .headerImage{
+      margin: auto;
+      
+    }
+  
+    .landGraphic{
+      width: 210px !important;
+    }
+
+
+    img.landLogo{
+      width: 90px;
+    }
+
+    .landText{
+      width: 120%;
+      height: auto;
+      font-size: 7px !important;
+      color: white;
+      font-family: themeFont;
+      src: url("iceland-regular.ttf");
+    }
+    
+    .landSubtitle{
+      width: 100px !important;
+      height: auto;
+      font-size: 9px !important;
+      color: white;
+      font-weight: bold;
+      font-family: "mainText";
+      src: url("Montserrat-Regular.ttf");
+    }
+
+    .landSubtitle2{
+      font-size: 4px !important;
+      margin-top: -1%;
+      margin-left: 5%;
+    }
+    
+    .applyButton{
+      width: 55px !important;
+      margin-top: 10px;
+      padding: 4px !important; 
+      background-color: #ff0000;
+      font-size: 8px !important;
     }
   }
 
@@ -108,9 +360,15 @@
     font-family: "mainText";
     src: url("Montserrat-Regular.ttf");
   }
+
+  .landSubtitle2{
+    font-size: 28px;
+    margin-top: -1%;
+    margin-left: 5%;
+  }
   
   .applyButton{
-    width: 50%;
+    width: 180px;
     height: auto;
     padding: 10px;
     border-radius: 30vw;

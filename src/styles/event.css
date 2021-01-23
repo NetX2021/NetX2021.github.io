@@ -8,9 +8,183 @@
     src: url("./Montserrat-Regular.ttf");
   }
 
+@media screen and (min-width: 1800px){
+    .eventContainer{
+        margin-top: 750px !important;
+    }
+
+    .topEventTitle{
+        font-size: 180px !important;
+    }
+
+    .eventBox{
+        width: 1500px !important;
+        height: 600px !important;
+        margin-top: 200px !important;
+    }
+
+    .eventBoxTitle{
+        font-size: 130px !important;
+        margin-left: 60px !important;
+        line-height: 65px !important;
+        margin-top: 45px !important;
+        margin-bottom: 40px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 35px !important;
+    }
+    
+    .eventBoxImg{
+        width: 350px !important;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 400px !important; 
+        text-align: center;
+    }
+
+    .topEventTitle{
+        height: 150px !important;
+        font-size: 85px !important;
+    }
+
+    .eventBox{
+        width: 800px !important;
+        height: 320px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 60px !important;
+        margin-left: 60px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 15px !important;
+    }
+    
+    .eventBoxImg{
+        width: 170px !important;
+    }
+
+}
+
+@media screen and (max-width: 992px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 280px !important; 
+        text-align: center;
+    }
+
+    .topEventTitle{
+        height: 100px !important;
+        font-size: 55px !important;
+    }
+
+    .eventBox{
+        width: 600px !important;
+        margin-top: 40px !important;
+        height: 300px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 40px !important;
+        margin-left: 65px !important;
+        margin-top: 40px !important;
+        line-height: 18px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 15px !important;
+    }
+    
+    .eventBoxImg{
+        width: 160px !important;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 250px !important; 
+        text-align: center;
+    }
+
+    .topEventTitle{
+        height: 90px !important;
+        font-size: 50px !important;
+    }
+
+    .eventBox{
+        width: 450px !important;
+        margin-top: 50px !important;
+        height: 280px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 30px !important;
+        margin-left: 50px !important;
+        margin-top: 40px !important;
+        line-height: 15px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 11px !important;
+    }
+    
+    .eventBoxImg{
+        width: 140px !important;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .eventContainer{
+        width: 100%;
+        margin-top: 150px !important; 
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .topEventTitle{
+        height: 60px !important;
+        font-size: 28px !important;
+    }
+
+    .eventBox{
+        width: 310px !important;
+        margin-top: 50px !important;
+        height: 220px !important;
+    }
+    
+    .eventBoxTitle{
+        font-size: 20px !important;
+        margin-left: 35px !important;
+        margin-top: 20px !important;
+        line-height: 10px !important;
+    }
+    
+    
+    .eventBoxText{
+        font-size: 9px !important;
+    }
+    
+    .eventBoxImg{
+        width: 100px !important;
+    }
+}
+
 .eventContainer{
     width: 100%;
-    margin-top: 80px !important;
+    margin-top: 500px;
     text-align: center;
 }
 
@@ -28,7 +202,7 @@
 }
 
 .eventBox{
-    width: 80%;
+    width: 1000px;
     height: 420px;
     margin-top: 100px;
     background-color:#ffd1c3;
@@ -70,8 +244,8 @@
     margin-left: 30px;
     src: url("./iceland-regular.ttf");
     border-bottom: 15px solid transparent;
-    line-height: 45px;
-    margin-top: 35px;
+    line-height: 40px;
+    margin-top: 40px;
     margin-bottom: 25px;
     cursor: pointer;
 }
