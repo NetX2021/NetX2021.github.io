@@ -14,7 +14,7 @@
     min-height: 45vw;
     margin-top: 30vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: #010516;
     justify-content: space-evenly;
     padding-bottom: 20px;
@@ -86,4 +86,39 @@
     margin-left: 5%;
     font-size: 25px;
     color: white;
+}
+.faqButton:hover {
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px){
+    .faqContainer {
+        flex-direction: column;
+    }
+    .faqImgColumn {
+        display: none;
+    }
+    .faqTextColumn {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .faqButton {
+        font-size: 30px;
+    }
+    .faqInfo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .faqButton {
+        font-size: 15px;
+    }
+    .faqInfo {
+        font-size: 10px;
+    }
 }

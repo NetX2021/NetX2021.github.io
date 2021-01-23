@@ -3,7 +3,8 @@ import mainLogo from '../assets/logo.png';
 import hamburger from '../assets/hamburger.png';
 
 export class Navigation extends Component {
-  
+  state = { showingNav: true };
+
   state = {
     auth: false,
     slide: 0,  // How much should the Navbar slide up or down
@@ -33,49 +34,8 @@ export class Navigation extends Component {
     this.setState({ lastScrollY: currentScrollY });
   };
 
-  constructor() {
-    super();
-    
-    this.state = {
-      showMenu: false,
-    }
-    
-    this.showMenu = this.showMenu.bind(this);
-    this.closeMenu = this.closeMenu.bind(this);
-    this.clicking = this.clicking.bind(this);
-  }
-  
-  clicking(event) {
-    event.preventDefault();
-    
-    if (this.showMenu.state===true) {
-      this.setState({
-        showMenu: false,
-      });
-    } else {
-      this.setState({
-        showMenu: true,
-      });
-    }
-  }
-
-  showMenu(event) {
-    event.preventDefault();
-    
-    this.setState({
-      showMenu: true,
-    });
-  }
-
-  closeMenu(event) {
-    event.preventDefault();
-
-    this.setState({
-      showMenu: false,
-    });
-  }
-
   render() {
+    const { showingNav } = this.state;
     return (
       <nav id="menu" className="navbar" style={{
         transform: `translate(0, ${this.state.slide})`,
@@ -148,53 +108,52 @@ export class Navigation extends Component {
           </ul>
         </div>
 
-        <button className="smallScreenButton" onClick={this.clicking}>
+        <button className="smallScreenButton" onClick={() => this.setState({ showingNav: !showingNav })}>
           <img className="smallScreen" src={hamburger} alt="hamburger menu icon"/>
         </button>
         
-        {
-          this.state.showMenu
+        { showingNav
             ? (
               <div className="openedMenu">
-                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                <li className="navButtonsSpacesSmall">
                   <span className="navButtonSmall">
-                    <a href="#about" className="page-scrollSmall">
+                    <a onClick={() => this.setState({ showingNav: !showingNav })} href="#about" className="page-scrollSmall">
                       About
                     </a>
                     <div className="slider"></div>
                   </span>
                 </li>
-                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
+                <li className="navButtonsSpacesSmall">
                   <span className="navButtonSmall">
-                    <a href="#event" className="page-scrollSmall">
+                    <a onClick={() => this.setState({ showingNav: !showingNav })} href="#event" className="page-scrollSmall">
                       Event
                     </a>
                   </span>
                 </li>
                 <li className="navButtonsSpacesSmall">
                   <span className="navButtonSmall">
-                    <a href="#collaborators" onClick={this.closeMenu} className="page-scrollSmall">
+                    <a onClick={() => this.setState({ showingNav: !showingNav })} href="#collaborators" className="page-scrollSmall">
                       Collaborators
-                    </a>
-                  </span>
-                </li>
-                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
-                    <a href="#sponsors" className="page-scrollSmall">
-                      Sponsors
-                    </a>
-                  </span>
-                </li>
-                <li onClick={this.closeMenu} className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
-                    <a href="#faq" className="page-scrollSmall">
-                      FAQ
                     </a>
                   </span>
                 </li>
                 <li className="navButtonsSpacesSmall">
                   <span className="navButtonSmall">
-                    <a href="#contact" onClick={this.closeMenu} className="page-scrollSmall">
+                    <a onClick={() => this.setState({ showingNav: !showingNav })} href="#sponsors" className="page-scrollSmall">
+                      Sponsors
+                    </a>
+                  </span>
+                </li>
+                <li className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a onClick={() => this.setState({ showingNav: !showingNav })} href="#faq" className="page-scrollSmall">
+                      FAQ
+                    </a>
+                  </span>
+                </li>
+                <li onClick={() => this.setState({ showingNav: !showingNav })} className="navButtonsSpacesSmall">
+                  <span className="navButtonSmall">
+                    <a href="#contact" className="page-scrollSmall">
                       Contact
                     </a>
                   </span>

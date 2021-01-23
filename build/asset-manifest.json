@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/NetX/static/css/main.e578c89d.chunk.css",
-    "main.js": "/NetX/static/js/main.f18ccc05.chunk.js",
-    "main.js.map": "/NetX/static/js/main.f18ccc05.chunk.js.map",
+    "main.css": "/NetX/static/css/main.91e3c12a.chunk.css",
+    "main.js": "/NetX/static/js/main.69df4f77.chunk.js",
+    "main.js.map": "/NetX/static/js/main.69df4f77.chunk.js.map",
     "runtime-main.js": "/NetX/static/js/runtime-main.b984bebc.js",
     "runtime-main.js.map": "/NetX/static/js/runtime-main.b984bebc.js.map",
     "static/js/2.370185ec.chunk.js": "/NetX/static/js/2.370185ec.chunk.js",
@@ -10,11 +10,13 @@
     "static/js/3.6827641c.chunk.js": "/NetX/static/js/3.6827641c.chunk.js",
     "static/js/3.6827641c.chunk.js.map": "/NetX/static/js/3.6827641c.chunk.js.map",
     "index.html": "/NetX/index.html",
-    "static/css/main.e578c89d.chunk.css.map": "/NetX/static/css/main.e578c89d.chunk.css.map",
+    "static/css/main.91e3c12a.chunk.css.map": "/NetX/static/css/main.91e3c12a.chunk.css.map",
     "static/js/2.370185ec.chunk.js.LICENSE.txt": "/NetX/static/js/2.370185ec.chunk.js.LICENSE.txt",
     "static/media/Bench_graphic.362152c8.png": "/NetX/static/media/Bench_graphic.362152c8.png",
+    "static/media/Case_comp_Graphic.4d535560.png": "/NetX/static/media/Case_comp_Graphic.4d535560.png",
     "static/media/Cell_tower_graphic.f3ebcd04.png": "/NetX/static/media/Cell_tower_graphic.f3ebcd04.png",
     "static/media/Circuit_board.853c02ed.png": "/NetX/static/media/Circuit_board.853c02ed.png",
+    "static/media/Circuit_board.afdaaa1c.png": "/NetX/static/media/Circuit_board.afdaaa1c.png",
     "static/media/Faq_graphic.0048853a.png": "/NetX/static/media/Faq_graphic.0048853a.png",
     "static/media/Landing_page_graphic.f5306ff2.png": "/NetX/static/media/Landing_page_graphic.f5306ff2.png",
     "static/media/McGill_Buildings.3d88430d.png": "/NetX/static/media/McGill_Buildings.3d88430d.png",
@@ -22,16 +24,13 @@
     "static/media/Phone_graphic.5fb38b66.png": "/NetX/static/media/Phone_graphic.5fb38b66.png",
     "static/media/Road_design.f0705588.png": "/NetX/static/media/Road_design.f0705588.png",
     "static/media/black cloud glow.d5086acf.png": "/NetX/static/media/black cloud glow.d5086acf.png",
-    "static/media/black cloud.be648bae.png": "/NetX/static/media/black cloud.be648bae.png",
-    "static/media/bridge.a01e5663.png": "/NetX/static/media/bridge.a01e5663.png",
     "static/media/buildings_graphic.605676ad.png": "/NetX/static/media/buildings_graphic.605676ad.png",
-    "static/media/logo.100cc7c3.png": "/NetX/static/media/logo.100cc7c3.png",
-    "static/media/red cloud.3d165634.png": "/NetX/static/media/red cloud.3d165634.png"
+    "static/media/logo.100cc7c3.png": "/NetX/static/media/logo.100cc7c3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b984bebc.js",
     "static/js/2.370185ec.chunk.js",
-    "static/css/main.e578c89d.chunk.css",
-    "static/js/main.f18ccc05.chunk.js"
+    "static/css/main.91e3c12a.chunk.css",
+    "static/js/main.69df4f77.chunk.js"
   ]
 }

@@ -16,6 +16,9 @@ export class faq extends Component {
     return (
       <div id="faq">
         <div className="faqContainer">
+            <div className="faqImgColumn">
+                <img src={faqImage} style={{width: "40vw", height: "45vw"}} alt="FAQ city scape"></img>
+            </div>
             <div className="faqTextColumn">
                 <div className="faqTitle">FAQ'S</div>
                 { !showingone 
@@ -109,9 +112,6 @@ export class faq extends Component {
                   ? <div className="faqInfo">The event is free for all applicants!</div>
                   : null
                 }
-            </div>
-            <div className="faqImgColumn">
-                <img src={faqImage} style={{width: "40vw", height: "45vw"}} alt="FAQ city scape"></img>
             </div>
           </div>
       </div>

@@ -131,6 +131,7 @@ img.smallScreen {
     right: 20px;
     top: 20px;
     padding: 15px;
+    z-index: 21;
   }
 
   img.smallScreen {
