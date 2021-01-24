@@ -53,7 +53,7 @@ export class Collaborators extends Component {
                     <div className="collabNames"></div>
                 </div>
 
-                <img src={bridgeImage} className="bridge"></img>
+                <img src={bridgeImage} className="bridge" alt="bridge"></img>
                 <div className="startupTitle">Startup <span style={{color:"#ff0000"}}>Showcase</span></div>
                 <div className="startupBox">
                 <Slide {...properties}>
@@ -74,7 +74,7 @@ export class Collaborators extends Component {
                     </div>
                     <div className="each-slide">
                         <div className="startupSlide">
-                        <span>Slide 3</span>
+                        <span>Slide 4</span>
                         </div>
                     </div>
                 </Slide>

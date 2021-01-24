@@ -60,7 +60,11 @@
   }
 
   .botAboutImage{
-    width: 600px !important;
+    width: 600px;
+  }
+
+  .aboutImgColumn:hover{
+    width: 400px;
   }
 
   .cloudText{
