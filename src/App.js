@@ -5,7 +5,9 @@ import './styles/header.css';
 import './styles/about.css';
 import './styles/event.css';
 import './styles/collaborators.css';
-import './styles/faq.css'
+import './styles/faq.css';
+import './styles/slideshow.css';
+
 
 import Navigation from './components/navigation';
 import Header from './components/header';
@@ -33,8 +35,8 @@ export class App extends Component {
       <div style={{overflow: "hidden"}}>
         <img src={road} className="bigRoad" alt="road that goes through whole page"></img>
         <Navigation />
-        <Header data={this.state.landingPageData.Header} />
-        <About data={this.state.landingPageData.About} />
+        <Header />
+        <About />
         <Event/>
         <Collaborators />
         <FAQ/>

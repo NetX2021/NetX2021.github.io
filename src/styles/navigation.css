@@ -30,6 +30,7 @@
 
 .navRight {
   display: flex;
+  width: 670px;
   flex-direction: row;
 }
 
@@ -52,7 +53,7 @@
   position: relative;
   height: 3vw;*/
   margin: 0 auto;
-  width: 0%;
+  width: 100%;
   box-sizing: border-box;
   height: 23px;
 }
