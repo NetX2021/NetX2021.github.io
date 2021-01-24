@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import motherboard from '../assets/constructed/Circuit_board.png';
 import mcgillBuildings from '../assets/constructed/McGill_Buildings.png';
 import bridgeImage from '../assets/constructed/bridge.png';
-
+import { Slide } from 'react-slideshow-image';
 
 export class Collaborators extends Component {
     state = {
@@ -23,10 +23,10 @@ export class Collaborators extends Component {
         const properties = {
             controls: true,
             indicators: true,
-            interval: 900,
+            duration: 7000,
+            infinite: true,
           }
 
-        const { index, direction } = this.state;
 
         return (
             <div id="collaborators">
@@ -56,7 +56,28 @@ export class Collaborators extends Component {
                 <img src={bridgeImage} className="bridge"></img>
                 <div className="startupTitle">Startup <span style={{color:"#ff0000"}}>Showcase</span></div>
                 <div className="startupBox">
-                
+                <Slide {...properties}>
+                    <div className="each-slide">
+                        <div className="startupSlide">
+                        <span>Slide 1</span>
+                        </div>
+                    </div>
+                    <div className="each-slide">
+                        <div className="startupSlide">
+                        <span>Slide 2</span>
+                        </div>
+                    </div>
+                    <div className="each-slide">
+                        <div className="startupSlide">
+                        <span>Slide 3</span>
+                        </div>
+                    </div>
+                    <div className="each-slide">
+                        <div className="startupSlide">
+                        <span>Slide 3</span>
+                        </div>
+                    </div>
+                </Slide>
                 </div>
 
             </div>

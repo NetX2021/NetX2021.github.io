@@ -5,7 +5,8 @@ import './styles/header.css';
 import './styles/about.css';
 import './styles/event.css';
 import './styles/collaborators.css';
-import './styles/faq.css'
+import './styles/faq.css';
+import './styles/slideshow.css';
 
 
 import Navigation from './components/navigation';
