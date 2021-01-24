@@ -12,16 +12,8 @@
     background: linear-gradient(3deg, #fff 0%, #fff 20%, #010516 20.5%, #010516 0%);
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
-
-  .headerText{
-    margin-left: 150px;
-  }
-
-  .headerImage{
-    margin-left: 150px;
-  }
-
 
   @media screen and (min-width: 1800px){
 
