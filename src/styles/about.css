@@ -62,11 +62,6 @@
   .botAboutImage{
     width: 600px;
   }
-
-  .aboutImgColumn:hover{
-    width: 400px;
-  }
-
   .cloudText{
     transform: translate(-50px,130px) !important;
     font-size: 60px !important;
@@ -172,8 +167,6 @@
   .cloudText{
     display: none;
   }
-
-
 }
 
 @media screen and (max-width: 992px){
@@ -242,7 +235,6 @@
   .circuitImage{
     width: 550px !important;
   }
-  
 }
 
 @media screen and (max-width: 767px){
