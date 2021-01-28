@@ -510,6 +510,12 @@
 
   .botAboutImage{
     width: 500px;
+    transition: all 0.3s ease-out;
+  }
+
+  .botAboutImage:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
   }
 
   .circuitImage{
