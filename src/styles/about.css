@@ -56,11 +56,12 @@
 
   .botAboutText{
     color:white;
-    font-size: 35px !important;
+    font-size: 35px !important; 
   }
 
-  .botAboutImage{
-    width: 600px;
+  .benchImage{
+    width: 500px;
+    height: 474px;
   }
   .cloudText{
     transform: translate(-50px,130px) !important;
@@ -504,8 +505,9 @@
     justify-content: center;
   }
 
-  .botAboutImage{
-    width: 500px;
+  .benchImage{
+    width: 416px;
+    height: 395px;
   }
 
   .circuitImage{

@@ -142,7 +142,7 @@ export class event extends Component {
                     <img src={caseImage} className="eventBoxImg" alt="Individual with analytics board"></img>
                   </div>
                   <div className="eventTextColumn">
-                    <div className="eventBoxText"> 
+                    <div className="eventBoxText">  
                     As a case competition event, NetX  gives students an opportunity to show their skills,
                     their abilities outside of the standard interview process. With 5 different categories, 
                     2 teams of 2 people will compete one against each other for a single case
