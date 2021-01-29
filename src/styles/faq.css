@@ -95,6 +95,7 @@
 @media screen and (max-width: 1200px){
     .faqContainer {
         flex-direction: column;
+        margin-top: 400px;
     }
     .faqImgColumn {
         display: none;
@@ -106,6 +107,10 @@
 }
 
 @media screen and (max-width: 767px){
+    .faqContainer{
+        padding-top: 20px;
+    }
+
     .faqButton {
         font-size: 30px;
     }
@@ -115,6 +120,9 @@
 }
 
 @media screen and (max-width: 480px){
+    .faqContainer{
+        margin-top: 450px;
+    }
     .faqButton {
         font-size: 15px;
     }

@@ -174,7 +174,7 @@
     }
 
     .landSubtitle2{
-      font-size: 14px !important;
+      font-size: 16px !important;
       margin-top: -1%;
       margin-left: 5%;
     }
@@ -197,7 +197,7 @@
     }
 
     .topLandingBack{
-      height: 240px;
+      height: 280px;
       background-color:  #010516;
       background: linear-gradient(3deg, #fff 0%, #fff 14%, #010516 15%, #010516 0%);
       display: flex;
@@ -206,6 +206,7 @@
     
     .headerText{
       margin: auto;      
+      margin-top: 10px !important;
     }
 
     .headerImage{
@@ -215,17 +216,18 @@
   
     .landGraphic{
       width: 260px !important;
+      margin-top: 30px !important;
     }
 
 
     img.landLogo{
-      width: 110px;
+      width: 130px;
     }
 
     .landText{
       width: 120%;
       height: auto;
-      font-size: 11px !important;
+      font-size: 16px !important;
       color: white;
       font-family: themeFont;
       src: url("iceland-regular.ttf");
@@ -234,7 +236,7 @@
     .landSubtitle{
       width: 160px !important;
       height: auto;
-      font-size: 12px !important;
+      font-size: 18px !important;
       color: white;
       font-weight: bold;
       font-family: "mainText";
@@ -242,32 +244,32 @@
     }
 
     .landSubtitle2{
-      font-size: 6px !important;
+      font-size: 14px !important;
       margin-top: -1%;
       margin-left: 5%;
     }
     
     .applyButton{
-      width: 70px !important;
+      width: 110px !important;
       margin-top: 10px;
       padding: 6px !important; 
       background-color: #ff0000;
-      font-size: 10px !important;
+      font-size: 16px !important;
     }
   }
 
   @media screen and (max-width: 480px){
     .landContainer{
       width: 100%;
-      height: 170px;
-      padding-bottom: 330px;
+      height: 400px;
+      padding-bottom: 0px;
       background-color: white;
     }
 
     .topLandingBack{
-      height: 500px;
+      height: 350px;
       background-color:  #010516;
-      background: linear-gradient(3deg, #fff 0%, #fff 35%, #010516 36%, #010516 0%);
+      background: linear-gradient(3deg, #fff 0%, #fff 14%, #010516 15%, #010516 0%);
       display: flex;
       flex-direction: column-reverse;
     }
@@ -275,16 +277,15 @@
     
     .headerText{
       margin: auto;     
-      margin-top: 0px; 
+      margin-top: 0px !important; 
       display: flex;
       flex-direction: column;
     }
 
     .headerImage{
       margin: auto;
-      margin-bottom: 0px;
-      margin-top: 30px;
-      
+      margin-bottom: 0px !important;
+      margin-top: 0px !important;
     }
   
     .landGraphic{
@@ -293,7 +294,7 @@
 
 
     img.landLogo{
-      width: 160px;
+      width: 160px !important;
       margin: auto;
       
     }

@@ -14,7 +14,7 @@
   .react-slideshow-container .default-nav {
     height: 50px;
     background: transparent;
-    width: 100px;
+    width: 80px;
     border: none;
     text-align: center;
     margin-top: 50px;
@@ -153,4 +153,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  @media screen and (max-width: 480px){
+
   }

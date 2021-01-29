@@ -76,26 +76,25 @@ export class Collaborators extends Component {
                         <div className="each-slide">
                             <div className="startupSlide">
                                 <img src={hopper} className="hopperLogo" alt="hopper logo" />
-                                <p className="hopperText">Founded in Montreal, Hopper is a prediction algorithm app enabling customers to monitor flight and hotel prices and save money by booking at the right time! Through their customer-centric approach, Hopper is the fastest growing mobile travel marketplace aiming to reduce travel anxiety throughout trip planning, helping enjoy your trip to the fullest.</p>
+                                <p className="hopperText">Founded in Montreal, Hopper is a prediction algorithm app enabling customers to monitor flight and hotel prices 
+                                and save money by booking at the right time! Through their customer-centric approach, Hopper is the fastest growing mobile travel marketplace 
+                                aiming to reduce travel anxiety throughout trip planning, helping enjoy your trip to the fullest.</p>
                             </div>
                         </div>
                         <div className="each-slide">
                             <div className="startupSlide">
                                 <div className="startupSlide">
-                                    <img src={notos} className="hopperLogo" alt="notos technologies logo" />
-                                    <p className="hopperText">Notos Technologies is a software company providing better solutions for UAV flight optimization. Through AI and aerial data, Notos’  software allows UAVs to autonomously find and exploit wind energies in the atmosphere, increasing flight efficiency, safety and range.</p>
+                                    <img src={notos} className="notosLogo" alt="notos technologies logo" />
+                                    <p className="notosText">Notos Technologies is a software company providing better solutions for UAV flight optimization. 
+                                    Through AI and aerial data, Notos’  software allows UAVs to autonomously find and exploit wind energies in the atmosphere, 
+                                    increasing flight efficiency, safety and range.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="each-slide">
                             <div className="startupSlide">
-                                <img src={data} className="hopperLogo dataperformer" alt="dataperformers logo" />
-                                <p className="hopperText">Dataperformers is an Applied AI company from Montreal building advanced and cross-industry technologies and products. More than a simple algorithm, Dataperfomrers aims to utilize AI and big data to provide end-to-end solutions for complex manufacturing, aerospace and supply chain needs.</p>
-                            </div>
-                        </div>
-                        <div className="each-slide">
-                            <div className="startupSlide">
-                            <span>Slide 4</span>
+                                <img src={data} className="dataLogo" alt="dataperformers logo" />
+                                <p className="dataText">Dataperformers is an Applied AI company from Montreal building advanced and cross-industry technologies and products. More than a simple algorithm, Dataperfomrers aims to utilize AI and big data to provide end-to-end solutions for complex manufacturing, aerospace and supply chain needs.</p>
                             </div>
                         </div>
                     </Slide>

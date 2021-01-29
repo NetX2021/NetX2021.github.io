@@ -11,6 +11,7 @@ body {
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -48,7 +49,7 @@ body {
 @media screen and (max-width: 480px){
   .bigRoad{
     width: 310px !important;
-    margin-top: 330px !important;
+    margin-top: 450px !important;
   }
 }
 

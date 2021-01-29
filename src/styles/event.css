@@ -8,6 +8,7 @@
     src: url("./Montserrat-Regular.ttf");
   }
 
+
 @media screen and (min-width: 1800px){
     .eventContainer{
         margin-top: 750px !important;
@@ -66,7 +67,7 @@
     
     
     .eventBoxText{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     
     .eventBoxImg{
@@ -164,9 +165,9 @@
     }
 
     .eventBox{
-        width: 310px !important;
+        width: 350px !important;
         margin-top: 50px !important;
-        height: 220px !important;
+        height: 250px !important;
     }
     
     .eventBoxTitle{
@@ -178,7 +179,13 @@
     
     
     .eventBoxText{
-        font-size: 9px !important;
+        font-size: 15px !important;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .eventImgColumn{
+        display: none !important;
     }
     
     .eventBoxImg{

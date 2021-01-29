@@ -51,6 +51,7 @@
     width: 300px;
     border-radius: 50%;
     margin: 3vw;
+    transition: all 0.3s ease-in-out;
 }
 
 .circleImages:hover {
@@ -146,23 +147,55 @@
     width: 1100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-40px, 20px);
 }
 
 .hopperLogo {
     width: 400px;
     height: 150px;
     border-radius: 10px;
-    margin: 20px;
+}
+
+.notosLogo{
+    width: 403px;
+    height: 168px;
+    border-radius: 10px;
+}
+
+.dataLogo{
+    width: 420px;
+    height: 78px;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 .hopperText {
-    width: 400px;
+    width: 800px;
     text-align: left;
+    font-size: 25px;
     margin: 20px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
 }
 
-.dataperformer {
-    height: 100px !important;
+.notosText{
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 100px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
+}
+
+.dataText{
+    width: 800px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+    font-family: "mainText";
+    src: url("./Montserrat-Regular.ttf");
 }
 
 @media screen and (max-width: 1800px){
@@ -205,6 +238,63 @@
         width: 950px;
         height: 500px;
     }
+
+    .startupSlide{
+        height: 350px;
+        width: 900px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-20px, 30px);
+    }
+    
+    .hopperLogo {
+        width: 400px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    
+    .notosLogo{
+        width: 403px;
+        height: 168px;
+        border-radius: 10px;
+    }
+    
+    .dataLogo{
+        width: 420px;
+        height: 78px;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    
+    .hopperText {
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 100px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 700px;
+        text-align: left;
+        font-size: 20px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -236,12 +326,69 @@
     }
 
     .startupTitle{
-        margin-top: 80px;
+        margin-top: 100px;
         font-size: 80px;
     }
 
     .startupBox{
-        width: 750px;
+        width: 760px;
+        height: 440px;
+    }
+
+    .startupSlide{
+        width: 720px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-20px, 20px);
+    }
+    
+    .hopperLogo {
+        width: 300px;
+        height: 113px;
+        border-radius: 10px;
+    }
+    
+    .notosLogo{
+        width: 403px;
+        height: 168px;
+        border-radius: 10px;
+    }
+    
+    .dataLogo{
+        width: 420px;
+        height: 78px;
+        border-radius: 10px;
+        margin: 30px;
+    }
+    
+    .hopperText {
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 100px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 600px;
+        text-align: left;
+        font-size: 18px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
     }
 }
 
@@ -268,6 +415,10 @@
         border-radius: 50%;
         margin: 3vw;
     }
+
+    .collabNames{
+        font-size: 16px;
+    }
     
     .bridge{
         display: none;
@@ -279,23 +430,170 @@
     }
 
     .startupBox{
-        width: 500px;
+        width: 480px;
+        margin-top: 200px;
+        height: 350px;
     }
 
+    .startupSlide{
+        width: 420px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-10px, 30px);
+    }
+    
     .hopperLogo {
-        width: 300px;
-        height: 150px;
+        width: 200px;
+        height: 75px;
         border-radius: 10px;
-        margin: 20px;
+        margin-top: 30px;
     }
+    
+    .notosLogo{
+        width: 200px;
+        height: 84px;
+        border-radius: 10px;
+        margin: 10px;
 
+    }
+    
+    .dataLogo{
+        width: 200px;
+        height: 38px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
     .hopperText {
-        width: 300px;
+        width: 360px;
         text-align: left;
+        font-size: 15px;
         margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 330px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 330px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
     }
 }
 
 @media screen and (max-width: 480px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -13px;
+        display: flex;
+        justify-content: center;
+    }
     
+    .buildingPicItself {
+        width: 502px;
+        height: 265px;
+    }
+
+    .topCollab {
+        font-size: 70px;
+    }
+
+    .circleImages {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+    .collabNames{
+        font-size: 16px;
+    }
+    
+    .bridge{
+        display: none;
+    }
+
+    .startupTitle{
+        font-size: 70px;
+        transform: translateY(0px);
+    }
+
+    .startupBox{
+        width: 380px;
+        margin-top: 200px;
+        height: 400px;
+    }
+
+    .startupSlide{
+        width: 350px;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-18px, 30px);
+    }
+    
+    .hopperLogo {
+        width: 150px;
+        height: 56px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    
+    .notosLogo{
+        width: 150px;
+        height: 63px;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+    
+    .dataLogo{
+        width: 150px;
+        height: 29px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
+    .hopperText {
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin: 20px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .notosText{
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 50px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
+    
+    .dataText{
+        width: 280px;
+        text-align: left;
+        font-size: 15px;
+        margin-left:30px;
+        font-family: "mainText";
+        src: url("./Montserrat-Regular.ttf");
+    }
 }  
