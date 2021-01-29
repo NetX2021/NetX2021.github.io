@@ -38,6 +38,7 @@
     
     .eventBoxImg{
         width: 350px !important;
+        height: 454px !important;
     }
 }
 
@@ -70,6 +71,7 @@
     
     .eventBoxImg{
         width: 170px !important;
+        height: 220px !important;
     }
 
 }
@@ -101,11 +103,12 @@
     
     
     .eventBoxText{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     
     .eventBoxImg{
         width: 160px !important;
+        height: 207px !important;
     }
     
 }
@@ -142,6 +145,7 @@
     
     .eventBoxImg{
         width: 140px !important;
+        height: 182px !important;
     }
     
 }
@@ -179,6 +183,7 @@
     
     .eventBoxImg{
         width: 100px !important;
+        height: 130px !important;
     }
 }
 
@@ -254,12 +259,14 @@
 .eventBoxText{
     color: #010516;
     font-size: 24px;
+    text-align: start;
     font-family: "mainText";
     src: url("./Montserrat-Regular.ttf");
 }
 
 .eventBoxImg{
     width: 250px;
+    height: 324px;
 }
 
 

@@ -9,21 +9,21 @@
 }
 
 .collabBuildings {
-    margin-top: 7vw;
-    padding-top: 5vw;
-    margin-bottom: -1.9vw;
+    margin-top: 50px;
+    margin-bottom: -27px;
     display: flex;
     justify-content: center;
-    
 }
 
 .buildingPicItself {
-    width: 70vw;
+    width: 980px;
+    height: 518px;
 }
 
 .collabDarkBox {
     background-color: #010516;
     margin-bottom: 22vw;
+    z-index: 5;
 }
 
 .topCollab {
@@ -31,7 +31,7 @@
     color: white;
     height: 10vw;
     display: flex;
-    font-size: 9vw;
+    font-size: 150px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -140,3 +140,65 @@
     height: 400px;
     width: 1100px;
 }
+
+@media screen and (max-width: 1800px){
+
+}
+
+@media screen and (max-width: 1200px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -21px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 784px;
+        height: 414px;
+    }
+
+    .topCollab {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -17px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 627px;
+        height: 331px;
+    }
+
+    .topCollab {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .collabBuildings {
+        margin-top: 50px;
+        margin-bottom: -13px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .buildingPicItself {
+        width: 502px;
+        height: 265px;
+    }
+
+    .topCollab {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    
+}  

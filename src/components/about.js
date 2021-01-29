@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import topImage from '../assets/constructed/Cell_tower_graphic.png';
 import botImage from "../assets/buildings_graphic.png";
 import benchImage from "../assets/constructed/Bench_graphic.png";
-import cloudImage from "../assets/constructed/black cloud glow.png";
+import peoplePres from "../assets/peoplePresentation.png";
 import circuitBoard from "../assets/Circuit_board.png";
 
 export class about extends Component {
@@ -42,17 +42,15 @@ export class about extends Component {
                 </p>
               </div>
               <div className="aboutImgColumn">
-                <img src={benchImage} className="botAboutImage" alt="bench with computer user on it"></img>
+                <img src={benchImage} className="benchImage" alt="bench with computer user on it"></img>
               </div>
             </div>
 
             {/* How we help companies */}
             <div className="aboutTwoColumns">
               <div className="aboutImgColumn">
-                <img src={cloudImage} className="botAboutImage" alt="glowing cloud with text">
+                <img src={peoplePres} className="benchImage" alt="people presentation">
                 </img>
-                <div className="cloudText"><span style={{color: "#ff0000"}}>N</span>etwork <span style={{color: "#ff0000", marginLeft: "50%"}}>E</span>xplore <span style={{color: "#ff0000"}}>T</span>ranscend</div>
-
               </div>
               <div className="aboutTextColumn">
                 <p className="botTitle">How We Help <span style={{color:"#ff0000"}}>Companies</span></p>
