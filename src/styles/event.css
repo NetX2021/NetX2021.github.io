@@ -103,7 +103,7 @@
     
     
     .eventBoxText{
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
     
     .eventBoxImg{
@@ -259,6 +259,7 @@
 .eventBoxText{
     color: #010516;
     font-size: 24px;
+    text-align: start;
     font-family: "mainText";
     src: url("./Montserrat-Regular.ttf");
 }

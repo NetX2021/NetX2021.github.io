@@ -486,6 +486,7 @@
   
   .aboutTextColumn {
     flex-basis: 60%;
+    text-align: start;
     display: flex;
     flex-direction: column;
   }
@@ -495,7 +496,7 @@
     font-size: 25px;
     width: 100%;
     transform: translateY(-60px);
-    margin-left: 0px;
+    margin-left: 50px;
     font-family: "mainText";
   }
   
