@@ -46,12 +46,15 @@
     justify-content: center;
 }
 
-.tempCircle {
-    height: 15vw;
-    width: 15vw;
+.circleImages {
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    border: 2px white dotted;
     margin: 3vw;
+}
+
+.circleImages:hover {
+    transform: scale(1.05);
 }
 
 .invisibleCollab {
@@ -92,12 +95,14 @@
 }
 
 .collabNames {
-    height: 5vw;
-    width: 20vw;
+    width: 300px;
+    padding: 20px;
     border-radius: 0.5vw;
-    border: 5px red solid;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 3vw;
+    color:#010516;
+    font-size: 25px;
+    font-family: "mainText";
 }
 
 .bridge{
@@ -139,6 +144,25 @@
 .startupSlide{
     height: 400px;
     width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hopperLogo {
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hopperText {
+    width: 400px;
+    text-align: left;
+    margin: 20px;
+}
+
+.dataperformer {
+    height: 100px !important;
 }
 
 @media screen and (max-width: 1800px){
@@ -161,6 +185,26 @@
     .topCollab {
         font-size: 100px;
     }
+
+    .circleImages {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+    .bridge{
+        width: 1000px;
+    }
+
+    .startupTitle{
+        font-size: 100px;
+    }
+
+    .startupBox{
+        width: 950px;
+        height: 500px;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -179,6 +223,26 @@
     .topCollab {
         font-size: 80px;
     }
+
+    .circleImages {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+
+    .bridge{
+        width: 750px;
+    }
+
+    .startupTitle{
+        margin-top: 80px;
+        font-size: 80px;
+    }
+
+    .startupBox{
+        width: 750px;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -196,6 +260,39 @@
 
     .topCollab {
         font-size: 70px;
+    }
+
+    .circleImages {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        margin: 3vw;
+    }
+    
+    .bridge{
+        display: none;
+    }
+
+    .startupTitle{
+        font-size: 70px;
+        transform: translateY(0px);
+    }
+
+    .startupBox{
+        width: 500px;
+    }
+
+    .hopperLogo {
+        width: 300px;
+        height: 150px;
+        border-radius: 10px;
+        margin: 20px;
+    }
+
+    .hopperText {
+        width: 300px;
+        text-align: left;
+        margin: 20px;
     }
 }
 
