@@ -511,6 +511,11 @@
   .benchImage{
     width: 416px;
     height: 395px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .benchImage:hover{
+    transform: scale(1.05);
   }
 
   .circuitImage{
