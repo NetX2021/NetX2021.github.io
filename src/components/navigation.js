@@ -26,7 +26,7 @@ export class Navigation extends Component {
     const currentScrollY = window.scrollY;
 
 
-    if (currentScrollY > lastScrollY) {
+    if (currentScrollY > lastScrollY && !window.scrollY===0) {
       this.setState({ slide: '-80px' });
     } else {
       this.setState({ slide: '0px' });
@@ -72,13 +72,13 @@ export class Navigation extends Component {
                 </a>
               </span>
             </div>
-            <div className="navButtonsSpaces">
+           {/**<div className="navButtonsSpaces">
               <span className="navButton">
                 <a href="#sponsors" className="page-scroll">
                   Sponsors
                 </a>
               </span>
-            </div>
+            </div>**/}
             <div className="navButtonsSpaces">
               <span className="navButton">
                 <a href="#faq" className="page-scroll">
@@ -86,13 +86,13 @@ export class Navigation extends Component {
                 </a>
               </span>
             </div>
-            <div className="navButtonsSpaces">
+            {/**<div className="navButtonsSpaces">
               <span className="navButton">
                 <a href="#contact" className="page-scroll">
                   Contact
                 </a>
               </span>
-            </div>
+            </div>**/}
           </ul>
         </div>
 
@@ -104,7 +104,7 @@ export class Navigation extends Component {
             ? (
               <div className="openedMenu">
                 <li className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
+                  <span className="navButton">
                     <a onClick={() => this.setState({ showingNav: !showingNav })} href="#about" className="page-scrollSmall">
                       About
                     </a>
@@ -112,40 +112,40 @@ export class Navigation extends Component {
                   </span>
                 </li>
                 <li className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
+                  <span className="navButton">
                     <a onClick={() => this.setState({ showingNav: !showingNav })} href="#event" className="page-scrollSmall">
                       Event
                     </a>
                   </span>
                 </li>
                 <li className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
+                  <span className="navButton">
                     <a onClick={() => this.setState({ showingNav: !showingNav })} href="#collaborators" className="page-scrollSmall">
                       Collaborators
                     </a>
                   </span>
                 </li>
-                <li className="navButtonsSpacesSmall">
+                {/**<li className="navButtonsSpacesSmall">
                   <span className="navButtonSmall">
                     <a onClick={() => this.setState({ showingNav: !showingNav })} href="#sponsors" className="page-scrollSmall">
                       Sponsors
                     </a>
                   </span>
-                </li>
+                </li>**/}
                 <li className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
+                  <span className="navButton">
                     <a onClick={() => this.setState({ showingNav: !showingNav })} href="#faq" className="page-scrollSmall">
                       FAQ
                     </a>
                   </span>
                 </li>
-                <li onClick={() => this.setState({ showingNav: !showingNav })} className="navButtonsSpacesSmall">
-                  <span className="navButtonSmall">
+                {/**<li onClick={() => this.setState({ showingNav: !showingNav })} className="navButtonsSpacesSmall">
+                  <span className="navButton">
                     <a href="#contact" className="page-scrollSmall">
                       Contact
                     </a>
                   </span>
-                </li>
+                </li>**/}
               </div>
             )
             : (

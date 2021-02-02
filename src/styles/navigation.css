@@ -30,7 +30,6 @@
 
 .navRight {
   display: flex;
-  width: 670px;
   flex-direction: row;
 }
 
@@ -157,7 +156,7 @@ img.smallScreen {
 
 .navButtonsSpacesSmall {
   padding: 20px;
-  width: 30%;
+  width: fit-content;
 }
 
 .navButtonSmall {
