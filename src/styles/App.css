@@ -1,5 +1,11 @@
 body {
   overflow-x: hidden;
+  overscroll-behavior:contain !important;
+  touch-action: none
+}
+html {
+  overscroll-behavior:contain !important;
+  touch-action: none
 }
 
 .App {
