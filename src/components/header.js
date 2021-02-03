@@ -12,7 +12,7 @@ export class Header extends Component {
               <img src={logo} className="landLogo" alt="NetX main logo"></img>
               <p className="landText">Case Competition and Network Event</p>
               <p className="landSubtitle">March 20-21st 2021 {"\n"} <p className="landSubtitle2">Virtual event</p> </p>
-              <button className="applyButton">Apply Now</button>
+              <a href="https://netx2021.typeform.com/to/i91yJCcg" ><button className="applyButton" >Apply Now</button></a>
             </div>
 
             <div className="headerImage">

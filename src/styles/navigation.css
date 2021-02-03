@@ -32,6 +32,7 @@
   display: flex;
   width: 670px;
   flex-direction: row;
+  transform: translateX(50px);
 }
 
 .navRightSmall {

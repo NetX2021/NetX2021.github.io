@@ -21,8 +21,9 @@ export class about extends Component {
             <div className="aboutTitle">What is Net<span style={{color: "#ff0000"}}>X</span></div>
             <div className="aboutText">NetX is a case competition and network event entered around the technology and the startup space in Montreal.
              The competition will be a virtual two day event held in March. As a student run organization, our mission is to  break down the barriers 
-             in the hiring process for both students and companies.How are we going to do this? By providing students opportunities that enable them
-              to Network with potential employers , Explore new technology and Transcend barriers as a result.
+             in the hiring process for both students and companies. How are we going to do this? By providing students opportunities that enable them
+              to <span style={{color: "#ff0000"}}>Network </span>with potential employers , <span style={{color: "#ff0000"}}>Explore</span> new technology 
+              and <span style={{color: "#ff0000"}}>Transcend </span>barriers as a result.
 
             </div>
           </div>

@@ -74,13 +74,6 @@ export class Navigation extends Component {
             </div>
             <div className="navButtonsSpaces">
               <span className="navButton">
-                <a href="#sponsors" className="page-scroll">
-                  Sponsors
-                </a>
-              </span>
-            </div>
-            <div className="navButtonsSpaces">
-              <span className="navButton">
                 <a href="#faq" className="page-scroll">
                   FAQ
                 </a>

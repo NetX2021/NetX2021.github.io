@@ -6,7 +6,7 @@ export class faq extends Component {
   state = { showingone: true };
   state = { showingtwo: true };
   state = { showingthree: true };
-  state = { showingfour: true };
+  state = { showingfour: false };
   
   render() {
     const { showingone } = this.state;
