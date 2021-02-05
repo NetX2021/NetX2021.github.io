@@ -94,7 +94,7 @@
     left: 0 !important;
     right: 0 !important;
     text-align: center !;
-    width: 500px !important;
+    width: 450px !important;
     z-index: 1;
   }
 
@@ -182,7 +182,7 @@
     right: 0 !important;
     text-align: center !;
     font-size: 60px !important;
-    width: 400px !important;
+    width: 380px !important;
     z-index: 1;
   }
 
@@ -192,8 +192,8 @@
     left: 0 !important;
     right: 0 !important;
     text-align: center !;
-    font-size: 40px !important;
-    width: 400px !important;
+    font-size: 60px !important;
+    width: 350px !important;
     z-index: 1;
   }
 
@@ -251,7 +251,7 @@
     right: 0 !important;
     text-align: center !;
     font-size: 50px !important;
-    width: 300px !important;
+    width: 350px !important;
     z-index: 1;
   }
 
@@ -261,8 +261,8 @@
     left: 0 !important;
     right: 0 !important;
     text-align: center !;
-    font-size: 30px !important;
-    width: 275px !important;
+    font-size: 50px !important;
+    width: 325px !important;
     z-index: 1;
   }
 
@@ -311,7 +311,7 @@
 
 @media screen and (max-width: 480px){
   .topAboutTitle{
-    height: 110px !important;
+    height: 120px !important;
     margin-top: 0px;
   }
 
@@ -332,8 +332,8 @@
     left: 0 !important;
     right: 0 !important;
     text-align: center !;
-    font-size: 20px !important;
-    width: 200px !important;
+    font-size: 40px !important;
+    width: 225px !important;
     z-index: 1;
   }
 
@@ -359,7 +359,7 @@
 
   .botAboutBack{
     width: 100%;
-    height: 410px !important;
+    height: 435px !important;
     background-color:#010516;
     margin-top: 120px !important;
     text-align: center;
@@ -417,8 +417,8 @@
     position: absolute;
     width: 40%;
     margin-top: 120px;
-    margin-left: 65px;
-    font-size: 50px;
+    margin-left: 80px;
+    font-size: 80px;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
   }

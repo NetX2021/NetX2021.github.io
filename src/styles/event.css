@@ -63,6 +63,7 @@
     .eventBoxTitle{
         font-size: 60px !important;
         margin-left: 60px !important;
+        line-height: 28px !important;
     }
     
     
@@ -172,7 +173,7 @@
     
     .eventBoxTitle{
         font-size: 20px !important;
-        margin-left: 35px !important;
+        margin-left: 45px !important;
         margin-top: 20px !important;
         line-height: 10px !important;
     }

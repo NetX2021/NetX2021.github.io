@@ -31,7 +31,6 @@
 .navRight {
   display: flex;
   flex-direction: row;
-  transform: translateX(50px);
 }
 
 .navRightSmall {
