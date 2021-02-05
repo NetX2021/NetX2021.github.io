@@ -7,6 +7,7 @@ import './styles/event.css';
 import './styles/collaborators.css';
 import './styles/faq.css';
 import './styles/slideshow.css';
+import './styles/contact.css';
 
 
 import Navigation from './components/navigation';
@@ -14,6 +15,7 @@ import Header from './components/header';
 import About from './components/about';
 import Event from './components/event';
 import FAQ from './components/faq';
+import Contact from './components/contact';
 import JsonData from './components/data.json';
 import road from "./assets/Road_design.png";
 import { Collaborators } from './components/collaborators';
@@ -40,6 +42,7 @@ export class App extends Component {
         <Event/>
         <Collaborators />
         <FAQ/>
+        <Contact/>
       </div>
     )
   }

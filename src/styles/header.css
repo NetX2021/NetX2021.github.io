@@ -55,6 +55,7 @@
     
     .landSubtitle{
       font-size: 42px !important;
+      width: 400px !important;
     }
   }
 
@@ -113,25 +114,25 @@
     }
     
     .applyButton{
-      width: 100px !important;
+      width: 180px !important;
       margin-top: 10px;
-      padding: 6px !important; 
+      padding: 8px !important; 
       background-color: #ff0000;
-      font-size: 15px !important;
+      font-size: 25px !important;
     }
   }
   
   @media screen and (max-width: 992px) {
     .landContainer{
       width: 100%;
-      height: 400px;
+      height: 450px;
       background-color: white;
     }
 
     .topLandingBack{
-      height: 300px;
+      height: 350px;
       background-color:  #010516;
-      background: linear-gradient(3deg, #fff 0%, #fff 9%, #010516 10%, #010516 0%);
+      background: linear-gradient(3deg, #fff 0%, #fff 14%, #010516 15%, #010516 0%);
       display: flex;
     }
 
@@ -164,7 +165,7 @@
     }
     
     .landSubtitle{
-      width: 180px !important;
+      width: 200px !important;
       height: auto;
       font-size: 20px !important;
       color: white;
@@ -180,8 +181,8 @@
     }
     
     .applyButton{
-      width: 120px !important;
-      margin-top: 10px;
+      width: 130px !important;
+      margin-top: 0px;
       padding: 6px !important; 
       background-color: #ff0000;
       font-size: 18px !important;
@@ -234,7 +235,7 @@
     }
     
     .landSubtitle{
-      width: 160px !important;
+      width: 180px !important;
       height: auto;
       font-size: 18px !important;
       color: white;
@@ -250,7 +251,7 @@
     }
     
     .applyButton{
-      width: 110px !important;
+      width: 120px !important;
       margin-top: 10px;
       padding: 6px !important; 
       background-color: #ff0000;
@@ -320,18 +321,20 @@
     }
     
     .applyButton{
-      width: 80px !important;
-      margin: auto;
+      width: 100px !important;
       margin-top: 10px;
-      padding: 4px !important; 
+      margin-left: 60px;
+      padding: 5px !important; 
       background-color: #ff0000;
       font-size: 12px !important;
     }
   }
+  
 
   .landGraphic{
     width: 500px;
   }
+
   
   .landLogo{
     display: block;
@@ -339,7 +342,30 @@
     height: auto;
     margin-top: 20%;
   }
+
+  #landClouds{
+    position: absolute;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: -450px;
+    animation: clouds 8s infinite backwards;
+  }
   
+  @keyframes clouds{
+    0% {
+      transform: translateX(0px);
+      animation-timing-function: ease-in-out;
+    }
+    50% {
+      transform: translateX(200px);
+      animation-timing-function: ease-in-out;
+    }
+    100% {
+      transform: translateX(0px);
+      animation-timing-function: ease-in-out;
+    }
+  }
+
   .landText{
     width: 140%;
     height: auto;
@@ -350,7 +376,7 @@
   }
   
   .landSubtitle{
-    width: 80%;
+    width: 350px;
     height: auto;
     font-size: 32px;
     color: white;

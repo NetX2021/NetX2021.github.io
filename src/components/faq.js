@@ -6,7 +6,7 @@ export class faq extends Component {
   state = { showingone: true };
   state = { showingtwo: true };
   state = { showingthree: true };
-  state = { showingfour: true };
+  state = { showingfour: false };
   
   render() {
     const { showingone } = this.state;
@@ -17,7 +17,7 @@ export class faq extends Component {
       <div id="faq">
         <div className="faqContainer">
             <div className="faqImgColumn">
-                <img src={faqImage} style={{width: "40vw", height: "45vw"}} alt="FAQ city scape"></img>
+                <img src={faqImage} className="faqImage" alt="FAQ city scape"></img>
             </div>
             <div className="faqTextColumn">
                 <div className="faqTitle">FAQ'S</div>
@@ -40,7 +40,8 @@ export class faq extends Component {
                     : null
                 }
                 { showingone
-                  ? <div className="faqInfo">Applicants will be selected individually for the March event</div>
+                  ? <div className="faqInfo">Applicants can submit names of other applicants they wish to team up on their registration form and will be placed together if both applicants are selected. Otherwise, applicants will be placed in teams by our selection committee.
+                  </div>
                   : null
                 }
 

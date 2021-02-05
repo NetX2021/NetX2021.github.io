@@ -156,12 +156,22 @@
     width: 400px;
     height: 150px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hopperLogo:hover{
+    transform: scale(1.05);
 }
 
 .notosLogo{
     width: 403px;
     height: 168px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.notosLogo:hover{
+    transform: scale(1.05);
 }
 
 .dataLogo{
@@ -169,6 +179,11 @@
     height: 78px;
     border-radius: 10px;
     margin: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dataLogo:hover{
+    transform: scale(1.05);
 }
 
 .hopperText {

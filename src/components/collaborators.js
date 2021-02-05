@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import motherboard from '../assets/constructed/Circuit_board.png';
+import motherboard from '../assets/circuit_animation.gif';
 import mcgillBuildings from '../assets/constructed/McGill_Buildings.png';
 import bridgeImage from '../assets/constructed/bridge.png';
 import engine from '../assets/McGillEngine.jpeg';
@@ -43,28 +43,26 @@ export class Collaborators extends Component {
                 <div className="collabDarkBox">
                     <span className="topCollab">Our <span style={{color: "#ff0000"}}>Partners</span></span>
                     <div className="twoCollabLogos">
-                        <img src={engine} className="circleImages" alt="McGill Engine logo" />
-                        <img src={engineer} className="circleImages" alt="McGill Engineer logo" />
+                        <a style={{borderRadius: "50%"}} href="https://www.mcgill.ca/engine/" target="_blank"><img src={engine} className="circleImages" alt="McGill Engine logo" /></a>
+                        <a style={{borderRadius: "50%"}} href="https://www.mcgill.ca/engineering/students/undergraduate/mesc" target="_blank"><img src={engineer} className="circleImages" alt="McGill Engineer logo" /></a>
                     </div>
                     <span className="invisibleCollab">Keynote  <span style={{color: "#ffffff"}}>Speakers</span></span>
                     <img src={motherboard} className="motherBoard" alt="motherboard design"/>
                 </div>
                 <div className="collabLightBox">
-                    <img src={speaker1} className="circleImages" alt="Katya Marc" />
-                    <img src={speaker2} className="circleImages" alt="Lorraine McGill BK" />
+                    <a style={{borderRadius: "50%"}} href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team" target="_blank"><img src={speaker1} className="circleImages" alt="Katya Marc" /></a>
+                    <a style={{borderRadius: "50%"}} href="https://www.mcgill.ca/careers4engineers/contact-ecc/meet-ecc-team" target="_blank"><img src={speaker2} className="circleImages" alt="Lorraine McGill BK" /></a>
                 </div>
                 <div className="collabLightBox">
                     <div className="collabNames">
                         <p>Katya Marc,</p>
                         <p>Associate Director,</p>
                         <p>McGill Engine</p>
-                        <a href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team">website</a>
                     </div>
                     <div className="collabNames">
                         <p>Lorraine Donald,</p>
                         <p>Skills Development Advisor,</p>
                         <p>Engineering Career Centre</p>
-                        <a href="https://www.mcgill.ca/careers4engineers/contact-ecc/meet-ecc-team">website</a>
                     </div>
                 </div>
 
@@ -75,7 +73,7 @@ export class Collaborators extends Component {
                     <Slide {...properties}>
                         <div className="each-slide">
                             <div className="startupSlide">
-                                <img src={hopper} className="hopperLogo" alt="hopper logo" />
+                                <a href="https://www.hopper.com/" target="_blank"><img src={hopper} className="hopperLogo" alt="hopper logo" /></a>
                                 <p className="hopperText">Founded in Montreal, Hopper is a prediction algorithm app enabling customers to monitor flight and hotel prices 
                                 and save money by booking at the right time! Through their customer-centric approach, Hopper is the fastest growing mobile travel marketplace 
                                 aiming to reduce travel anxiety throughout trip planning, helping enjoy your trip to the fullest.</p>
@@ -84,7 +82,7 @@ export class Collaborators extends Component {
                         <div className="each-slide">
                             <div className="startupSlide">
                                 <div className="startupSlide">
-                                    <img src={notos} className="notosLogo" alt="notos technologies logo" />
+                                    <a href="https://www.notostechnologies.com/" target="_blank"><img src={notos} className="notosLogo" alt="notos technologies logo" /></a>
                                     <p className="notosText">Notos Technologies is a software company providing better solutions for UAV flight optimization. 
                                     Through AI and aerial data, Notos’  software allows UAVs to autonomously find and exploit wind energies in the atmosphere, 
                                     increasing flight efficiency, safety and range.</p>
@@ -93,7 +91,7 @@ export class Collaborators extends Component {
                         </div>
                         <div className="each-slide">
                             <div className="startupSlide">
-                                <img src={data} className="dataLogo" alt="dataperformers logo" />
+                                <a href="https://www.dataperformers.com/" target="_blank"><img src={data} className="dataLogo" alt="dataperformers logo" /></a>
                                 <p className="dataText">Dataperformers is an Applied AI company from Montreal building advanced and cross-industry technologies and products. More than a simple algorithm, Dataperfomrers aims to utilize AI and big data to provide end-to-end solutions for complex manufacturing, aerospace and supply chain needs.</p>
                             </div>
                         </div>

@@ -86,13 +86,13 @@ export class Navigation extends Component {
                 </a>
               </span>
             </div>
-            {/**<div className="navButtonsSpaces">
+            <div className="navButtonsSpaces">
               <span className="navButton">
                 <a href="#contact" className="page-scroll">
                   Contact
                 </a>
               </span>
-            </div>**/}
+            </div>
           </ul>
         </div>
 
@@ -139,13 +139,13 @@ export class Navigation extends Component {
                     </a>
                   </span>
                 </li>
-                {/**<li onClick={() => this.setState({ showingNav: !showingNav })} className="navButtonsSpacesSmall">
+                <li onClick={() => this.setState({ showingNav: !showingNav })} className="navButtonsSpacesSmall">
                   <span className="navButton">
                     <a href="#contact" className="page-scrollSmall">
                       Contact
                     </a>
                   </span>
-                </li>**/}
+                </li>
               </div>
             )
             : (

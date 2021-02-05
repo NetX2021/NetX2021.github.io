@@ -1,11 +1,5 @@
 body {
   overflow-x: hidden;
-  overscroll-behavior:contain !important;
-  touch-action: none
-}
-html {
-  overscroll-behavior:contain !important;
-  touch-action: none
 }
 
 .App {
@@ -54,7 +48,7 @@ html {
 
 @media screen and (max-width: 480px){
   .bigRoad{
-    width: 310px !important;
+    width: 320px !important;
     margin-top: 450px !important;
   }
 }
@@ -64,6 +58,8 @@ html {
   position: absolute;
   z-index: -1;
   margin-top: 350px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   overflow-x: hidden !important;
 }
 
