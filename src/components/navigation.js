@@ -26,7 +26,7 @@ export class Navigation extends Component {
     const currentScrollY = window.scrollY;
 
 
-    if (currentScrollY > lastScrollY && !window.scrollY===0) {
+    if (!window.scrollY < 1 && currentScrollY > lastScrollY) {
       this.setState({ slide: '-80px' });
     } else {
       this.setState({ slide: '0px' });
