@@ -72,7 +72,6 @@
     font-family: themeFont;
     src: url("./iceland-regular.ttf");
     transform: translateY(23.5vw);
-    
 }
 
 .motherBoard {
@@ -123,7 +122,7 @@
     right: 0;
     text-align: center;
     z-index: 1;
-    transform: translateY(-400px);
+    transform: translateY(-430px);
     font-family: themeFont;
     src: url("./iceland-regular.ttf");
 }
@@ -139,7 +138,7 @@
     right: 0;
     text-align: center;
     z-index: 1;
-    transform: translateY(-200px);
+    transform: translateY(-300px);
 }
 
 .startupSlide{
@@ -186,6 +185,16 @@
     transform: scale(1.05);
 }
 
+.haplyLogo{
+    width: 372px;
+    height: 124px;
+    transition: all 0.3s ease-in-out;
+}
+
+.haplyLogo:hover{
+    transform: scale(1.05);
+}
+
 .hopperText {
     width: 800px;
     text-align: left;
@@ -212,6 +221,65 @@
     font-family: "mainText";
     src: url("./Montserrat-Regular.ttf");
 }
+
+.sponsersBox{
+    margin-top: 300px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.sponserTitle{
+    position: absolute;
+    color: #010516;
+    font-size: 150px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    font-family: themeFont;
+    src: url("./iceland-regular.ttf");
+}
+
+.sponserCol{
+    transform: translateY(200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deloitte{
+    width: 500px;
+    height: 262.5px; 
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.next{
+    width: 501px;
+    height: 175px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.tech{
+    width: 400px;
+    height: 303px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+}
+
+.deloitte:hover{
+    transform: scale(1.05);
+}
+
+.next:hover{
+    transform: scale(1.05);
+}
+
+.tech:hover{
+    transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 1800px){
 
@@ -243,10 +311,12 @@
 
     .bridge{
         width: 1000px;
+        transform: translateY(-20px);
     }
 
     .startupTitle{
         font-size: 100px;
+        transform: translateY(-400px);
     }
 
     .startupBox{
@@ -338,10 +408,11 @@
 
     .bridge{
         width: 750px;
+        transform: translateY(-100px);
     }
 
     .startupTitle{
-        margin-top: 100px;
+        margin-top: 10px;
         font-size: 80px;
     }
 
@@ -405,6 +476,28 @@
         font-family: "mainText";
         src: url("./Montserrat-Regular.ttf");
     }
+
+    .sponserTitle{
+        font-size: 140px;
+    }
+
+    .deloitte{
+        width: 450px;
+        height: 236px; 
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .next{
+        width: 401px;
+        height: 140px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .tech{
+        width: 240px;
+        height: 182px;
+        transition: all 0.3s ease-in-out;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -446,7 +539,7 @@
 
     .startupBox{
         width: 480px;
-        margin-top: 200px;
+        margin-top: 400px;
         height: 350px;
     }
 
@@ -481,6 +574,11 @@
         border-radius: 10px;
         margin: 10px;
     }
+
+    .haplyLogo{
+        width: 186px;
+        height: 62px;
+    }
     
     .hopperText {
         width: 360px;
@@ -508,6 +606,29 @@
         font-family: "mainText";
         src: url("./Montserrat-Regular.ttf");
     }
+
+    .sponsersBox{
+        margin-top: 550px;
+    }
+
+    .sponserTitle{
+        font-size: 100px;
+    }
+
+    .deloitte{
+        width: 300px;
+        height: 158px; 
+    }
+    
+    .next{
+        width: 281px;
+        height: 98px;
+    }
+    
+    .tech{
+        width: 168px;
+        height: 127px;
+    }
 }
 
 @media screen and (max-width: 480px){
@@ -528,14 +649,15 @@
     }
 
     .circleImages {
-        height: 160px;
-        width: 160px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
-        margin: 3vw;
+        margin: 4vw;
     }
 
     .collabNames{
-        font-size: 16px;
+        font-size: 15px;
+        padding: 0px;
     }
     
     .bridge{
@@ -549,7 +671,7 @@
 
     .startupBox{
         width: 380px;
-        margin-top: 200px;
+        margin-top: 450px;
         height: 400px;
     }
 
@@ -584,6 +706,11 @@
         border-radius: 10px;
         margin: 10px;
     }
+
+    .haplyLogo{
+        width: 140px;
+        height: 47px;
+    }
     
     .hopperText {
         width: 280px;
@@ -603,6 +730,7 @@
         src: url("./Montserrat-Regular.ttf");
     }
     
+    
     .dataText{
         width: 280px;
         text-align: left;
@@ -610,5 +738,32 @@
         margin-left:30px;
         font-family: "mainText";
         src: url("./Montserrat-Regular.ttf");
+    }
+
+    .sponsersBox{
+        margin-top: 650px;
+    }
+
+    .sponserTitle{
+        font-size: 60px;
+    }
+
+    .sponserCol{
+        transform: translateY(100px);
+    }
+
+    .deloitte{
+        width: 250px;
+        height: 131px; 
+    }
+    
+    .next{
+        width: 281px;
+        height: 98px;
+    }
+    
+    .tech{
+        width: 168px;
+        height: 127px;
     }
 }  

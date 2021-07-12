@@ -12,7 +12,7 @@
 .faqContainer{
     width: 100%;
     min-height: 45vw;
-    margin-top: 30vw;
+    margin-top: 20vw;
     display: flex;
     flex-direction: row-reverse;
     background-color: #010516;
@@ -129,7 +129,7 @@
 @media screen and (max-width: 1200px){
     .faqContainer {
         flex-direction: column;
-        margin-top: 400px;
+        margin-top: 250px;
     }
     .faqImgColumn {
         display: none;
@@ -143,6 +143,7 @@
 @media screen and (max-width: 767px){
     .faqContainer{
         padding-top: 20px;
+        margin-top: 250px;
     }
 
     .faqButton {
@@ -155,7 +156,7 @@
 
 @media screen and (max-width: 480px){
     .faqContainer{
-        margin-top: 450px;
+        margin-top: 100px;
     }
     .faqButton {
         font-size: 20px;

@@ -40,7 +40,8 @@ export class faq extends Component {
                     : null
                 }
                 { showingone
-                  ? <div className="faqInfo">Applicants can submit names of other applicants they wish to team up on their registration form and will be placed together if both applicants are selected. Otherwise, applicants will be placed in teams by our selection committee.
+                  ? <div className="faqInfo">Applicants can submit names of other applicants they wish to team up with on their registration form and will be placed together if both 
+                    applicants are selected. Otherwise, applicants will be placed in teams by our selection committee.
                   </div>
                   : null
                 }

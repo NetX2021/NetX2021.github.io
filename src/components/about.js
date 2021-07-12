@@ -3,7 +3,7 @@ import topImage from '../assets/constructed/Cell_tower_graphic.png';
 import botImage from "../assets/buildings_graphic.png";
 import benchImage from "../assets/constructed/Bench_graphic.png";
 import peoplePres from "../assets/peoplePresentation.png";
-import circuitBoard from "../assets/Circuit_board.png";
+import circuitBoard from "../assets/Circuit_board 3.png";
 
 export class about extends Component {
   render() {
@@ -19,7 +19,7 @@ export class about extends Component {
           {/* What is NetX */}
           <div className="whatIsText">
             <div className="aboutTitle">What is Net<span style={{color: "#ff0000"}}>X</span></div>
-            <div className="aboutText">NetX is a case competition and network event entered around the technology and the startup space in Montreal.
+            <div className="aboutText">NetX is a case competition and network event centered around the technology and the startup space in Montreal.
              The competition will be a virtual two day event held in March. As a student run organization, our mission is to  break down the barriers 
              in the hiring process for both students and companies. How are we going to do this? By providing students opportunities that enable them
               to <span style={{color: "#ff0000"}}>Network </span>with potential employers , <span style={{color: "#ff0000"}}>Explore</span> new technology 

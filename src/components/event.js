@@ -110,7 +110,7 @@ export class event extends Component {
               More Than a <span style={{marginLeft: "20px", color: "#ff0000"}}> Conference</span>
             </div>
 
-            {/* Network Event */}
+            {/* Event Box */}
             <div className="eventBox">
               <div className="eventTwoRows">
                 <div className="eventTwoColumns">
@@ -128,24 +128,24 @@ export class event extends Component {
                   </div>
                   <div className="eventTextColumn">
                     <div className="eventBoxText"> 
-                    As a networking event, NetX will enable students to meet representatives of different tech startup companies as well as 
-                    speakers of various backgrounds relevant to the industry. Students will then get a chance to hear about current projects 
-                    and research all while discovering new technology currently being applied in the field. 
-
+                    NetX will host representatives of different tech startup companies as well as speakers of various backgrounds in the industry.
+                    Students will also get a chance to hear about current projects all while discovering new technology currently being applied in the field. 
                     </div>
                   </div>
+                  <div className="arrowRight" onClick={this.CaseActive}></div>
                 </div>
 
                 {/* Case Comp */}
                 <div id="CaseContent" className="eventTwoColumns" style={{display:"none"}}>
-                  <div className="eventImgColumn">
-                    <img src={caseImage} className="eventBoxImg" alt="Individual with analytics board"></img>
-                  </div>
+                  <div className="arrowLeft" onClick={this.NetworkActive}></div>
                   <div className="eventTextColumn">
                     <div className="eventBoxText">  
                     As a case competition, NetX gives students an opportunity to showcase their skills and abilities outside of the standard interview process.
                     With 4 different categories, teams of 2 people will compete head to head to solve a single case.
                     </div>
+                  </div>
+                  <div className="eventImgColumn">
+                    <img src={caseImage} className="eventBoxImg" alt="Individual with analytics board"></img>
                   </div>
                 </div>
               </div>

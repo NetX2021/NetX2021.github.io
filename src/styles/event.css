@@ -76,6 +76,14 @@
         height: 220px !important;
     }
 
+    .arrowRight{
+        padding: 20px !important;
+    }
+    
+    .arrowLeft{
+        padding: 20px !important;
+    }
+
 }
 
 @media screen and (max-width: 992px){
@@ -111,6 +119,14 @@
     .eventBoxImg{
         width: 160px !important;
         height: 207px !important;
+    }
+
+    .arrowRight{
+        padding: 18px !important;
+    }
+    
+    .arrowLeft{
+        padding: 18px !important;
     }
     
 }
@@ -149,6 +165,14 @@
         width: 140px !important;
         height: 182px !important;
     }
+
+    .arrowRight{
+        padding: 10px !important;
+    }
+    
+    .arrowLeft{
+        padding: 10px !important;
+    }
     
 }
 
@@ -162,7 +186,7 @@
 
     .topEventTitle{
         height: 60px !important;
-        font-size: 28px !important;
+        font-size: 33px !important;
     }
 
     .eventBox{
@@ -172,9 +196,9 @@
     }
     
     .eventBoxTitle{
-        font-size: 20px !important;
-        margin-left: 45px !important;
-        margin-top: 20px !important;
+        font-size: 25px !important;
+        margin-left: 30px !important;
+        margin-top: 30px !important;
         line-height: 10px !important;
     }
     
@@ -192,6 +216,14 @@
     .eventBoxImg{
         width: 100px !important;
         height: 130px !important;
+    }
+
+    .arrowRight{
+        display: none !important;
+    }
+    
+    .arrowLeft{
+        display: none !important;
     }
 }
 
@@ -277,4 +309,23 @@
     height: 324px;
 }
 
+.arrowRight{
+    border: solid #ff0000;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 25px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+}
+
+.arrowLeft{
+    border: solid #ff0000;
+    border-width: 3px 0 0 3px;
+    display: inline-block;
+    padding: 25px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 20px;
+}
 
