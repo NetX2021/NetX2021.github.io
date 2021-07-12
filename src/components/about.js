@@ -12,8 +12,12 @@ export class about extends Component {
         <div className="aboutContainer">
           <div className="topAboutTitle">
             <img src={topImage} className="topImage" alt="screen and data"></img>
-            <span className="mainSubtitle">Are You<span style={{color: "#ff0000"}}> Up For</span></span>
-            <span className="smallSubtitle"><span style={{color: "#ff0000"}}>The</span> Challenge</span>
+            <span className="mainSubtitle">Are You Up</span>
+            <span className="smallSubtitle">
+            For The
+            <span style={{color: "#ff0000"}}> Challenge ?</span>
+            </span>
+            
           </div>
           
           {/* What is NetX */}
