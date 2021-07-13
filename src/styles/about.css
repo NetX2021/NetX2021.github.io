@@ -29,12 +29,6 @@
     font-size: 120px !important;
   }
   
-  .aboutText{
-    margin-top: 50px !important;
-    color:#010516;
-    font-size: 35px !important;
-    font-family: "mainText";
-  }
 
   .botImage{
     width: 1000px !important;
@@ -101,7 +95,7 @@
   }
 
   .benefits {
-    max-width: 500px !important;
+    width: 700px !important;
     height: 320px !important;
     margin: auto !important;
     margin-top: 100px !important;
@@ -110,11 +104,14 @@
 
   .subBenefit{
     font-size: 65px !important;
+    width: 98% !important;
+  }
+
+  .subBenefit span{
+    font-size: 0.5em !important;
+
   }
   
-  .aboutText{
-    font-size: 17px !important;
-  }
 
   .botImage{
     width: 450px !important;
@@ -199,20 +196,17 @@
     z-index: 1;
   }
 
-  .benefits {
+  .benefits{
     height: 300px !important;
-    width: 500px !important;
+    width: 700px !important;
     margin-bottom: 60px !important;
   }
 
   .subBenefit{
     font-size: 58px !important;
+    width: 98% !important;
   }
   
-  .aboutText{
-    font-size: 16px !important;
-  }
-
   .botImage{
     width:  400px !important;
     margin-top: 30px !important;
@@ -270,18 +264,16 @@
 
   .benefits {
     height: 350px !important;
-    width: 370px !important;
+    width: 500px !important;
     margin-top: 60px !important;
     margin-bottom: 20px !important;
   }
 
   .subBenefit{
     font-size: 50px !important;
+    width:98% !important;
   }
   
-  .aboutText{
-    font-size: 16px !important;
-  }
 
   .botImage{
     width:  400px !important;
@@ -347,12 +339,11 @@
   }
 
   .subBenefit{
-    font-size: 38px !important;
+    font-size: 35px !important;
+    width: 98% !important;
   }
+
   
-  .aboutText{
-    font-size: 16px !important;
-  }
 
   .botImage{
     width:  250px !important;
@@ -441,7 +432,7 @@
     color:#FF0000;
     margin-top: 10px;
     margin-left: 20px;
-    width: 80%;
+    width: 98%;
     font-size: 100px;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
@@ -452,15 +443,6 @@
     font-size: 0.4em;
     font-weight: bold;
 
-  }
-  
-  .aboutText{
-    margin-top: 20px;
-    margin-left: 30px;
-    color:#010516;
-    font-size: 25px;
-    width: 90%;
-    font-family: "mainText";
   }
   
   .botImage{

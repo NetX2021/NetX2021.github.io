@@ -35,7 +35,6 @@ export class App extends Component {
   render() {
     return (
       <div style={{overflow: "hidden"}}>
-        <img src={road} className="bigRoad" alt="road that goes through whole page"></img>
         <Navigation />
         <Header />
         <About />

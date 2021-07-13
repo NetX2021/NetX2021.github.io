@@ -18,50 +18,6 @@ body {
   }
 }
 
-@media only screen and (min-width: 1800px){
-  .bigRoad {
-    width: 1700px !important;
-    margin-top: 500px !important;
-  }
-}
-
-@media only screen and (max-width: 1200px){
-  .bigRoad {
-    width: 1000px !important;
-    margin-top: 450px !important;
-  }
-}
-
-@media only screen and (max-width: 992px){
-  .bigRoad {
-    width: 750px !important;
-    margin-top: 350px !important;
-  }
-}
-
-@media only screen and (max-width: 767px){
-  .bigRoad {
-    width: 500px !important;
-    margin-top: 350px !important;
-  }
-}
-
-@media screen and (max-width: 480px){
-  .bigRoad{
-    width: 320px !important;
-    margin-top: 700px !important;
-  }
-}
-
-.bigRoad {
-  width: 1200px;
-  position: absolute;
-  z-index: -1;
-  margin-top: 350px;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  overflow-x: hidden !important;
-}
 
 .App-header {
   background-color: #282c34;

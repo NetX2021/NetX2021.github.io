@@ -15,21 +15,17 @@ export class about extends Component {
             <span className="mainSubtitle">Are You Up</span>
             <span className="smallSubtitle">
             For The
-            <span style={{color: "#ff0000"}}> Challenge ?</span>
+            <span style={{color: "#ff0000"}}> Challenge?</span>
             </span>
             
           </div>
           
           {/* What is NetX */}
-          <div className="whatIsText">
-            <div className="aboutTitle">What is Net<span style={{color: "#ff0000"}}>X</span></div>
-            <div className="aboutText">NetX is a case competition and network event centered around the technology and the startup space in Montreal.
-             The competition will be a virtual two day event held in March. As a student run organization, our mission is to  break down the barriers 
-             in the hiring process for both students and companies. How are we going to do this? By providing students opportunities that enable them
-              to <span style={{color: "#ff0000"}}>Network </span>with potential employers , <span style={{color: "#ff0000"}}>Explore</span> new technology 
-              and <span style={{color: "#ff0000"}}>Transcend </span>barriers as a result.
+          <div className="benefits">
+            <div className="subBenefit">Network <span>with industry professionals</span></div>
+            <div className="subBenefit">Explore <span>new and emerging tech</span></div>
+            <div className="subBenefit">Transcend <span>barriers and build your career</span></div> 
 
-            </div>
           </div>
           <div className="whatIsImg">
             <img src={botImage} className="botImage" alt="NetX robot mascot"></img>
