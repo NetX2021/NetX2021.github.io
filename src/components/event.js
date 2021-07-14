@@ -106,9 +106,6 @@ export class event extends Component {
     return (
         <div id="event">
           <div className="eventContainer">
-            <div className="topEventTitle">
-              More Than a <span style={{marginLeft: "20px", color: "#ff0000"}}> Conference</span>
-            </div>
 
             {/* Event Box */}
             <div className="eventBox">
@@ -127,9 +124,9 @@ export class event extends Component {
                     <img src={phoneImage} className="eventBoxImg" alt="Phone with various icons on top of it"></img>
                   </div>
                   <div className="eventTextColumn">
+                    <div className="eventBoxPhrases">Chat.Converse.<br></br><span>Connect</span></div>
                     <div className="eventBoxText"> 
-                    NetX will host representatives of different tech startup companies as well as speakers of various backgrounds in the industry.
-                    Students will also get a chance to hear about current projects all while discovering new technology currently being applied in the field. 
+                    Build your network by meeting our speakers,hear about current projects and learn about new technology being applied in the field. 
                     </div>
                   </div>
                   <div className="arrowRight" onClick={this.CaseActive}></div>
@@ -139,9 +136,9 @@ export class event extends Component {
                 <div id="CaseContent" className="eventTwoColumns" style={{display:"none"}}>
                   <div className="arrowLeft" onClick={this.NetworkActive}></div>
                   <div className="eventTextColumn">
+                    <div className="eventBoxPhrases">Compete.Collab.<br></br><span>Create</span></div>
                     <div className="eventBoxText">  
-                    As a case competition, NetX gives students an opportunity to showcase their skills and abilities outside of the standard interview process.
-                    With 4 different categories, teams of 2 people will compete head to head to solve a single case.
+                    Showcase your skills and abilities outside of the standard interview process.
                     </div>
                   </div>
                   <div className="eventImgColumn">
