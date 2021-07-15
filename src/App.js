@@ -17,7 +17,6 @@ import Event from './components/event';
 import FAQ from './components/faq';
 import Contact from './components/contact';
 import JsonData from './components/data.json';
-import road from "./assets/Road_design.png";
 import { Collaborators } from './components/collaborators';
 
 export class App extends Component {

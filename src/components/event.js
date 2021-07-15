@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import phoneImage from '../assets/constructed/Phone_graphic.png';
 import caseImage from '../assets/constructed/Case_comp_Graphic.png';
+import circuitBoard from '../assets/Circuit_board.png';
 
 export class event extends Component {
   state = {
@@ -105,6 +106,11 @@ export class event extends Component {
   render() {
     return (
         <div id="event">
+          <div className="circuitImageContainer">
+          <div className="circuitImageBackground"></div>
+            <img src={circuitBoard} className="circuitImage" alt="circuit board design">
+            </img>
+          </div>
           <div className="eventContainer">
 
             {/* Event Box */}
@@ -148,10 +154,7 @@ export class event extends Component {
               </div>
             </div>
           </div>
-          <div>
 
-            
-          </div>
 
       </div>
     )

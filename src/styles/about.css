@@ -62,9 +62,7 @@
     font-size: 60px !important;
   }
 
-  .circuitImage{
-    width: 1500px !important;
-  }
+
   
 }
 
@@ -160,9 +158,6 @@
     font-size: 20px !important;
   }
 
-  .circuitImage{
-    width: 800px !important;
-  }
   
   .cloudText{
     display: none;
@@ -230,9 +225,6 @@
     margin-left: 0px !important;
   }
 
-  .circuitImage{
-    width: 550px !important;
-  }
 }
 
 @media screen and (max-width: 767px){
@@ -298,9 +290,6 @@
     font-size: 18px !important;
   }
 
-  .circuitImage{
-    width: 500px !important;
-  }
 }
 
 @media screen and (max-width: 480px){
@@ -340,7 +329,7 @@
 
   .subBenefit{
     font-size: 35px !important;
-    width: 98% !important;
+    width: 90% !important;
   }
 
   
@@ -368,10 +357,6 @@
     font-size: 14px !important;
     transform: translateY(-40px) !important;
     width: 320px !important;
-  }
-
-  .circuitImage{
-    width: 300px !important;
   }
 }
 
@@ -509,15 +494,6 @@
     transform: scale(1.05);
   }
 
-  .circuitImage{
-    width: 1100px;
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 1;
-  }
   
   .cloudText{
     position: absolute;

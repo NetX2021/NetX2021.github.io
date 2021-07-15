@@ -634,14 +634,14 @@
 @media screen and (max-width: 480px){
     .collabBuildings {
         margin-top: 50px;
-        margin-bottom: -13px;
-        display: flex;
-        justify-content: center;
+        margin-bottom: 0px;
+        display: flex; 
+        justify-content: center; 
     }
     
     .buildingPicItself {
         width: 502px;
-        height: 265px;
+        height: 265px;     
     }
 
     .topCollab {

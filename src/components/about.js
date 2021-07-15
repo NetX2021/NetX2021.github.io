@@ -3,7 +3,6 @@ import topImage from '../assets/constructed/Cell_tower_graphic.png';
 import botImage from "../assets/buildings_graphic.png";
 import benchImage from "../assets/constructed/Bench_graphic.png";
 import peoplePres from "../assets/peoplePresentation.png";
-import circuitBoard from "../assets/Circuit_board 3.png";
 
 export class about extends Component {
   render() {
@@ -63,8 +62,8 @@ export class about extends Component {
             </div>
           
           </div>
-          <img src={circuitBoard} className="circuitImage" alt="circuit board design">
-            </img>
+          {/* <img src={circuitBoard} className="circuitImage" alt="circuit board design">
+            </img> */}
 
         
         </div>
