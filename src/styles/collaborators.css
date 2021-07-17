@@ -21,7 +21,7 @@
 }
 
 .collabDarkBox {
-    background-color: #010516;
+    background-color: white;
     margin-bottom: 22vw;
     z-index: 5;
 }
@@ -47,6 +47,7 @@
 }
 
 .circleImages {
+    background-color: red;
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -81,6 +82,7 @@
 }
 
 .collabLightBox {
+    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -98,7 +100,7 @@
     width: 300px;
     padding: 20px;
     border-radius: 0.5vw;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(252, 247, 247, 0.8);
     margin: 3vw;
     color:#010516;
     font-size: 25px;

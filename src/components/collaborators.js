@@ -4,6 +4,7 @@ import mcgillBuildings from "../assets/constructed/McGill_Buildings.png";
 import bridgeImage from "../assets/constructed/bridge.png";
 import engine from "../assets/McGillEngine.jpeg";
 import engineer from "../assets/McGillEngineer.jpeg";
+import partners from "../assets/partners.jpg";
 import speaker1 from "../assets/Katya_Marc.jpeg";
 import speaker2 from "../assets/melike-lab.jpg";
 import speaker3 from "../assets/Lorraine_McGill_BK.jpg";
@@ -40,14 +41,14 @@ export class Collaborators extends Component {
     return (
       <div id="collaborators">
         <div className="collabBuildings">
-          <img
+          {/* <img
             src={mcgillBuildings}
             className="buildingPicItself"
             alt="main mcgill buildings"
-          />
+          /> */}
         </div>
         <div className="collabDarkBox">
-          <span className="topCollab">
+          <span className="topCollab" style={{ color: "black" }}>
             Our <span style={{ color: "#ff0000" }}>Partners</span>
           </span>
           <div className="twoCollabLogos">
@@ -57,11 +58,14 @@ export class Collaborators extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={engine}
+
+              {
+              
+               <img
+                src={partners}
                 className="circleImages"
                 alt="McGill Engine logo"
-              />
+              /> }
             </a>
             <a
               style={{ borderRadius: "50%" }}
@@ -69,11 +73,12 @@ export class Collaborators extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src={engineer}
+              {
+               <img
+                src={partners}
                 className="circleImages"
                 alt="McGill Engineer logo"
-              />
+              />}
             </a>
           </div>
           <span className="invisibleCollab">
