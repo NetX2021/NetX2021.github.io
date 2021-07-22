@@ -11,11 +11,11 @@ export class about extends Component {
         <div className="aboutContainer">
           <div className="topAboutTitle">
             <img src={topImage} className="topImage" alt="screen and data"></img>
-            <span className="mainSubtitle">Are You Up</span>
-            <span className="smallSubtitle">
+            <div className="mainSubtitle">Are You Up</div>
+            <div className="smallSubtitle">
             For The
             <span style={{color: "#ff0000"}}> Challenge?</span>
-            </span>
+            </div>
             
           </div>
           
@@ -62,8 +62,6 @@ export class about extends Component {
             </div>
           
           </div>
-          {/* <img src={circuitBoard} className="circuitImage" alt="circuit board design">
-            </img> */}
 
         
         </div>

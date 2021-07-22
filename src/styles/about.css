@@ -4,18 +4,21 @@
   }
 
   .topImage{
-    width: 850px !important;
+    position: absolute !important;
+    width: 800px !important;
+    height: 1400px !important;
+    transform: translateY(520px) !important;
   }
 
   .mainSubtitle{
-    margin-left: 150px !important;
-    font-size: 120px !important;
+    margin-left: 200px !important;
+    font-size: 80px !important;
   }
 
   .smallSubtitle{
-    margin-top: 140px !important;
-    margin-left: 170px !important;
-    font-size: 72px !important;
+    margin-top: 0px !important;
+    margin-left: 200px !important;
+    font-size: 80px !important;
   }
 
   .benefits {
@@ -71,25 +74,19 @@
     display: none;
   }
   .mainSubtitle{
-    padding-top: 30px !important;
+    padding-top: 0px !important;
     margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
-    font-size: 80px !important;
-    width: 430px !important;
-    z-index: 1;
+    margin-top: 55px !important;
+    text-align: center !important;
+    font-size: 60px !important;
   }
 
   .smallSubtitle{
-    padding-top: 120px !important;
+    padding-top: 0 !important;
     margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
-    font-size:60px !important;
-    width: 480px !important;
-    z-index: 1;
+    margin-bottom: 55px !important;
+    text-align: center !important;
+    font-size: 60px !important;
   }
 
   .benefits {
@@ -170,25 +167,17 @@
   }
 
   .mainSubtitle{
-    padding-top: 30px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
-    font-size: 60px !important;
-    width: 340px !important;
-    z-index: 1;
+    padding-top: 0 !important;
+    margin-top: 35px !important;
+    text-align: center !important;
+    font-size: 50px !important;
   }
 
   .smallSubtitle{
-    padding-top: 80px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
+    padding-top: 0 !important;
+    margin-bottom: 35px !important;
+    text-align: center !important;
     font-size: 50px !important;
-    width: 400px !important;
-    z-index: 1;
   }
 
   .benefits{
@@ -233,36 +222,28 @@
   }
 
   .mainSubtitle{
-    padding-top: 30px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
-    font-size: 50px !important;
-    width: 320px !important;
-    z-index: 1;
+    padding-top: 0px !important;
+    margin-top: 35px !important;
+    text-align: center !important;
+    font-size: 42px !important;
   }
 
   .smallSubtitle{
-    padding-top: 90px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
+    padding-top: 0px !important;
+    margin-bottom: 35px !important;
+    text-align: center !important;
     font-size: 42px !important;
-    width: 380px !important;
-    z-index: 1;
   }
 
   .benefits {
-    height: 350px !important;
+    height: 300px !important;
     width: 500px !important;
     margin-top: 60px !important;
     margin-bottom: 20px !important;
   }
 
   .subBenefit{
-    font-size: 50px !important;
+    font-size: 45px !important;
     width:98% !important;
   }
   
@@ -299,36 +280,28 @@
   }
 
   .mainSubtitle{
-    padding-top: 20px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
-    font-size: 40px !important;
-    width: 230px !important;
-    z-index: 1;
+    padding-top: 0px !important;
+    margin-top: 30px !important;
+    text-align: center !important;
+    font-size: 30px !important;
   }
 
   .smallSubtitle{
-    padding-top: 60px !important;
-    margin: auto !important; 
-    left: 0 !important;
-    right: 0 !important;
-    text-align: center !;
+    padding-top: 0px !important;
+    margin-bottom: 30px !important;
+    text-align: center !important;
     font-size: 30px !important;
-    width: 250px !important;
-    z-index: 1;
   }
 
   .benefits {
-    height: 350px !important;
+    height: 200px !important;
     width: 360px !important;
     margin-top: 60px !important;
     margin-bottom: 20px !important;
   }
 
   .subBenefit{
-    font-size: 35px !important;
+    font-size: 30px !important;
     width: 90% !important;
   }
 
@@ -368,34 +341,41 @@
   
   
   .topAboutTitle{
+    display: flex ;
+    justify-content: center ;
+    align-content: center ;
+    flex-direction: column ;
     width: 100%;
     height: 230px;
     background-color: #ffd1c3;
   }
 
   .topImage{
-    width: 630px;
-    transform: translateY(-30px);
+    position: absolute;
+    width: 600px;
+    transform: translateY(380px);
     z-index: 0;
   }
   
   .mainSubtitle{
     color:#FFF;
-    position: absolute;
-    width: 40%;
-    margin-top: 40px;
-    margin-left: 60px;
-    font-size: 80px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 60px;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
+
+    
   }
   
   .smallSubtitle{
     color: #FFF;
-    position: absolute;
-    width: 40%;
-    margin-top: 120px;
-    margin-left: 80px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: center;
+    margin-left: 200px;
     font-size: 60px;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
@@ -418,7 +398,7 @@
     margin-top: 10px;
     margin-left: 20px;
     width: 98%;
-    font-size: 100px;
+    font-size: 88px;
     font-family: themeFont;
     src: url("iceland-regular.ttf");
   }

@@ -59,7 +59,7 @@
     }
 
     .soonButton{
-      margin-top: -75px;
+      margin-top: -75px !important;
       padding: 16px !important;
     }
   }
@@ -120,7 +120,7 @@
     
     .soonButton{
       width: 280px !important;
-      margin-top: 10px;
+      margin-top: 0px !important;
       padding: 12px !important; 
       background-color: #ff0000;
       font-size: 25px !important;
@@ -187,7 +187,7 @@
     
     .soonButton{
       width: 200px !important;
-      margin-top: 0px;
+      margin-top: -3px !important;
       padding: 10px !important; 
       background-color: #ff0000;
       font-size: 18px !important;
@@ -257,7 +257,7 @@
     
     .soonButton{
       width: 180px !important;
-      margin-top: 10px;
+      margin-top: 3px !important;
       padding: 10px !important; 
       background-color: #ff0000;
       font-size: 16px !important;
@@ -327,7 +327,7 @@
     
     .soonButton{
       width: 170px !important;
-      margin-top: 10px;
+      margin-top: 6px !important;
       margin-left: 35px;
       padding: 10px !important; 
       background-color: #ff0000;
@@ -409,6 +409,7 @@
   }
   
   .soonButton{
+    margin-top: 14px;
     width: 280px;
     height: auto;
     padding: 12px;
@@ -422,5 +423,4 @@
     font-family: "mainText";
     src: url("Montserrat-Regular.ttf");
     outline: none;
-    cursor: pointer;
   }
