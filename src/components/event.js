@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import phoneImage from '../assets/constructed/Phone_graphic.png';
 import caseImage from '../assets/constructed/Case_comp_Graphic.png';
-import circuitBoard from '../assets/Circuit_board.png';
+import circuitBoard from '../assets/Circuit_board 4.png';
 
 export class event extends Component {
   state = {
