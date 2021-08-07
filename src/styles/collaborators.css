@@ -47,8 +47,8 @@
 }
 
 .circleImages {
-    height: 300px;
-    width: 300px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
     margin: 3vw;
     transition: all 0.3s ease-in-out;
@@ -77,12 +77,15 @@
 .motherBoard {
     width: 100%;
     height: auto;
-    margin-bottom: -22vw;
+    margin-bottom: -23vw;
+    background-color: black;
 }
 
-.collabLightBox {
+.collabBox {
     display: flex;
     justify-content: center;
+    background-color: black;
+    flex-direction: column;
 }
 
 .tempCircleDark {
@@ -94,15 +97,62 @@
     margin: 3vw;
 }
 
-.collabNames {
-    width: 300px;
-    padding: 20px;
+.collabRow{
+    display: flex;
+    justify-content: center;
+}
+.collabPerson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
     border-radius: 0.5vw;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 3vw;
-    color:#010516;
-    font-size: 25px;
+    color: white;
+    margin: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
     font-family: "mainText";
+}
+
+.borderRed{
+    border: 5px solid #ff0000;
+}
+
+.borderDarkRed{
+    border: 5px solid #690707;
+}
+
+.borderBlue{
+    border: 5px solid #351aca;
+}
+
+.borderLightBlue{
+    border: 5px solid #0faaf1;
+}
+
+.borderPeach{
+    border: 5px solid #ca7373;
+}
+
+.borderPurple{
+    border: 5px solid #d400ff;
+}
+
+.borderGreen{
+    border: 5px solid #2cf311;
+}
+
+.borderOrange{
+    border: 5px solid #ec561b;
+}
+.collabPerson p{
+    margin-top:0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.collabDescription{
+    color:#ff0000;
 }
 
 .bridge{
@@ -303,8 +353,8 @@
     }
 
     .circleImages {
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
         border-radius: 50%;
         margin: 3vw;
     }
@@ -524,7 +574,7 @@
         margin: 3vw;
     }
 
-    .collabNames{
+    .collabPerson{
         font-size: 16px;
     }
     
@@ -655,7 +705,7 @@
         margin: 4vw;
     }
 
-    .collabNames{
+    .collabPerson{
         font-size: 15px;
         padding: 0px;
     }

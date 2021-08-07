@@ -7,6 +7,12 @@ import engineer from "../assets/McGillEngineer.jpeg";
 import speaker1 from "../assets/Katya_Marc.jpeg";
 import speaker2 from "../assets/melike-lab.jpg";
 import speaker3 from "../assets/Lorraine_McGill_BK.jpg";
+import speaker4 from "../assets/Ali Elawad.jpeg";
+import speaker5 from "../assets/Alexandre Borowczyk.jpeg";
+import speaker6 from "../assets/Alex Campeau.png";
+import speaker7 from "../assets/Bruno Morency.jpeg";
+import speaker8 from "../assets/GB_profile pic_Headshot 2.jpeg";
+import speaker9 from "../assets/Sanchit Gupta.jpeg";
 import hopper from "../assets/Hopper.png";
 import notos from "../assets/Notos Technologies.png";
 import data from "../assets/Dataperformers.png";
@@ -14,6 +20,8 @@ import holt from "../assets/holt.png";
 import next from "../assets/Sponsor_Next36.png";
 import tech from "../assets/Sponsor_TechStars.png";
 import haply from "../assets/Haply.png";
+import {pointer} from "../assets/deconstructed/phone graphic/Phone_graphic-9.png"
+import {singleCloud} from "../assets/deconstructed/phone graphic/Phone_graphic-10.png"
 import { Slide } from "react-slideshow-image";
 
 export class Collaborators extends Component {
@@ -85,15 +93,27 @@ export class Collaborators extends Component {
             alt="motherboard design"
           />
         </div>
-        <div className="collabLightBox">
+        <div className="collabBox">
+
+
+
+        <div className="collabRow">
+        <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
             href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={speaker1} className="circleImages" alt="Katya Marc" />
+            <img src={speaker1} className="circleImages borderRed" alt="Katya Marc" />
           </a>
+            <p>Katya Marc,</p>
+            <div className="collabDescription">
+            <p>Associate Director,</p>
+            <p>McGill Engine</p>
+            </div>
+          </div>
+          <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
             href="https://engineering.uottawa.ca/people/erol-kantarci-melike"
@@ -102,10 +122,17 @@ export class Collaborators extends Component {
           >
             <img
               src={speaker2}
-              className="circleImages"
+              className="circleImages borderDarkRed"
               alt="Melike Erol-Kantarci"
             />
           </a>
+            <p>Melike Erol-Kantarci,</p>
+            <div className="collabDescription">
+            <p>Canada Research-Chair,</p>
+            <p>UOttawa</p>
+            </div>
+          </div>
+          <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
             href="https://www.mcgill.ca/careers4engineers/contact-ecc/meet-ecc-team"
@@ -114,26 +141,114 @@ export class Collaborators extends Component {
           >
             <img
               src={speaker3}
-              className="circleImages"
+              className="circleImages borderRed"
               alt="Lorraine McGill BK"
             />
           </a>
-        </div>
-        <div className="collabLightBox">
-          <div className="collabNames">
-            <p>Katya Marc,</p>
-            <p>Associate Director,</p>
-            <p>McGill Engine</p>
-          </div>
-          <div className="collabNames">
-            <p>Melike Erol-Kantarci,</p>
-            <p>Canada Research-Chair,</p>
-            <p>UOttawa</p>
-          </div>
-          <div className="collabNames">
             <p>Lorraine Donald,</p>
+            <div className="collabDescription">
             <p>Skills Development Advisor,</p>
             <p>Engineering Career Centre</p>
+            </div>
+          </div>
+          </div>
+
+
+          <div className="collabRow">
+            <div className="collabPerson">
+            <a
+              style={{ borderRadius: "50%" }}
+              href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={speaker4} className="circleImages borderBlue" alt="Ali Elawad" />
+            </a>
+              <p>Ali Elawad,</p>
+              <div className="collabDescription">
+              <p>CPO and Partner,</p>
+              <p>Dataperformers</p>
+              </div>
+            </div>
+            <div className="collabPerson">
+          <a
+            style={{ borderRadius: "50%" }}
+            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={speaker5} className="circleImages borderLightBlue" alt="Alexandre Borowczyk" />
+          </a>
+            <p>Alexandre Borowczyk,</p>
+            <div className="collabDescription">
+            <p>Co-founder and CTO,</p>
+            <p>Notos Technologies</p>
+            </div>
+          </div>
+          <div className="collabPerson">
+          <a
+            style={{ borderRadius: "50%" }}
+            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={speaker6} className="circleImages borderPeach" alt="Alex Campeau" />
+          </a>
+            <p>Alex Campeau,</p>
+            <div className="collabDescription">
+            <p>VP Engineering,</p>
+            <p>Hopper</p>
+            </div>
+          </div>
+          </div>
+
+
+          <div className="collabRow">
+          <div className="collabPerson">
+            <a
+              style={{ borderRadius: "50%" }}
+              href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={speaker7} className="circleImages borderGreen" alt="Bruno Morency" />
+            </a>
+              <p>Bruno Morency,</p>
+              <div className="collabDescription">
+              <p>Managing Director,</p>
+              <p>Techstars</p>
+              </div>
+            </div>
+            <div className="collabPerson">
+          <a
+            style={{ borderRadius: "50%" }}
+            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={speaker8} className="circleImages borderLightBlue" alt="Gaurav Bansal" />
+          </a>
+            <p>Gaurav Bansal,</p>
+            <div className="collabDescription">
+            <p>Program Manager,</p>
+            <p>Holt Accelerator</p>
+            </div>
+          </div>
+          <div className="collabPerson">
+          <a
+            style={{ borderRadius: "50%" }}
+            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={speaker9} className="circleImages borderOrange" alt="Sanchit Gupta" />
+          </a>
+            <p>Sanchit Gupta,</p>
+            <div className="collabDescription">
+            <p>Alumni,</p>
+            <p>Next36</p>
+            </div>
+          </div>
           </div>
         </div>
 
