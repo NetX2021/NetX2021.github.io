@@ -21,7 +21,7 @@ import next from "../assets/Sponsor_Next36.png";
 import tech from "../assets/Sponsor_TechStars.png";
 import haply from "../assets/Haply.png";
 import pointer from "../assets/deconstructed/phone graphic/Phone_graphic-9.png"
-import cloud from "../assets/deconstructed/phone graphic/Phone_graphic-10.png"
+import cloud from "../assets/white_cloud.png"
 import threeCloud from "../assets/deconstructed/Landing Page graphic/Landing_page_graphic-9.png"
 import { Slide } from "react-slideshow-image";
 

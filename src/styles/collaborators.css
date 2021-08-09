@@ -118,7 +118,7 @@
 .cloud{
     position: absolute;
     left: 1px; 
-    height: 300px;
+    height: 150px;
     width: auto;
     transform: translateY(165px);
 }
@@ -126,7 +126,7 @@
 .cloud2{
     position: absolute;
     right: 5px; 
-    height: 300px;
+    height: 150px;
     width: auto;
     transform: translateY(15px);
 }
@@ -135,7 +135,7 @@
 .cloud3{
     position: absolute;
     left: 1px; 
-    height: 300px;
+    height: 150px;
     width: auto;
     transform: translateY(15px);
     
@@ -143,16 +143,16 @@
 
 .cloud4{
     position: absolute;
-    left: -47px; 
-    height: 250px;
+    left: -20px; 
+    height: 150px;
     width: auto;
     transform: translateY(-175px);
 }
 
 .cloud5{
     position: absolute;
-    left: -39px; 
-    height: 300px;
+    left: 0px; 
+    height: 200px;
     width: auto;
     transform: translateY(-180px);
 }
@@ -160,7 +160,7 @@
 .cloud6{
     position: absolute;
     right: 10px;
-    height: 250px;
+    height: 150px;
     width: auto;
     transform: translateY(-125px);
 }
@@ -184,7 +184,7 @@
 }
 .redPointer{
     position: absolute;
-    right: 125px;
+    right: 145px;
     width: 200px;
     height: 200px;
     transform: translateY(165px);
@@ -350,6 +350,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
 }
 
 .sponserTitle{
