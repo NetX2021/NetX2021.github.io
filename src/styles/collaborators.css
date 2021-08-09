@@ -115,6 +115,80 @@
     font-family: "mainText";
 }
 
+.cloud{
+    position: absolute;
+    left: 1px; 
+    height: 300px;
+    width: auto;
+    transform: translateY(165px);
+}
+
+.cloud2{
+    position: absolute;
+    right: 5px; 
+    height: 300px;
+    width: auto;
+    transform: translateY(15px);
+}
+
+
+.cloud3{
+    position: absolute;
+    left: 1px; 
+    height: 300px;
+    width: auto;
+    transform: translateY(15px);
+    
+}
+
+.cloud4{
+    position: absolute;
+    left: -47px; 
+    height: 250px;
+    width: auto;
+    transform: translateY(-175px);
+}
+
+.cloud5{
+    position: absolute;
+    left: -39px; 
+    height: 300px;
+    width: auto;
+    transform: translateY(-180px);
+}
+
+.cloud6{
+    position: absolute;
+    right: 10px;
+    height: 250px;
+    width: auto;
+    transform: translateY(-125px);
+}
+
+.threeCloud{
+    position: absolute;
+    left: -100px;
+    height: 350px;
+    width: auto;
+    transform: translateY(0px) scaleX(-1);
+
+}
+
+.threeCloud2{
+    position: absolute;
+    right: -0px;
+    height: 250px;
+    width: auto;
+    transform: translateY(400px) scaleX(-1);
+
+}
+.redPointer{
+    position: absolute;
+    right: 125px;
+    width: 200px;
+    height: 200px;
+    transform: translateY(165px);
+}
 .borderRed{
     border: 5px solid #ff0000;
 }
@@ -202,8 +276,8 @@
 }
 
 .hopperLogo {
-    width: 400px;
-    height: 150px;
+    width: 350px;
+    height: 100px;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -213,8 +287,8 @@
 }
 
 .notosLogo{
-    width: 403px;
-    height: 168px;
+    width: 350px;
+    height: 100px;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
@@ -224,10 +298,9 @@
 }
 
 .dataLogo{
-    width: 420px;
+    width: 380px;
     height: 78px;
     border-radius: 10px;
-    margin: 30px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -236,8 +309,8 @@
 }
 
 .haplyLogo{
-    width: 372px;
-    height: 124px;
+    width: 300px;
+    height: 100px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -274,51 +347,49 @@
 
 .sponsersBox{
     margin-top: 300px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .sponserTitle{
-    position: absolute;
     color: #010516;
     font-size: 150px;
     margin: auto;
-    left: 0;
-    right: 0;
     text-align: center;
-    z-index: 1;
     font-family: themeFont;
     src: url("./iceland-regular.ttf");
+    margin-bottom: 50px;
 }
 
-.sponserCol{
-    transform: translateY(200px);
+.sponserRow{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    
 }
 
-.deloitte{
-    width: 500px;
-    height: 262.5px; 
+
+.holt{
+    width: 450px;
+    height: 200px; 
     transition: all 0.3s ease-in-out;
-    margin: 10px;
 }
 
 .next{
-    width: 501px;
-    height: 175px;
+    width: 420px;
+    height: 150px;
     transition: all 0.3s ease-in-out;
-    margin: 10px;
 }
 
 .tech{
-    width: 400px;
-    height: 303px;
+    width: 350px;
+    height: 260px;
     transition: all 0.3s ease-in-out;
-    margin: 10px;
 }
 
-.deloitte:hover{
+.holt:hover{
     transform: scale(1.05);
 }
 
@@ -328,6 +399,12 @@
 
 .tech:hover{
     transform: scale(1.05);
+}
+
+.sponser{
+    width: 260px;
+    height: auto;
+    margin: 15px;
 }
 
 
@@ -357,6 +434,18 @@
         width: 200px;
         border-radius: 50%;
         margin: 3vw;
+    }
+
+    .collabPerson{
+        font-size: 20px;
+    }
+
+    .cloud, .cloud2, .cloud3, .cloud4, .cloud5, .cloud6, .threeCloud, .threeCloud2{
+        display: none;
+    }
+
+    .redPointer{
+        display: none;
     }
 
     .bridge{
@@ -430,6 +519,16 @@
         font-family: "mainText";
         src: url("./Montserrat-Regular.ttf");
     }
+
+    .sponserTitle{
+        margin-bottom: 50px;
+    }
+
+    .sponser{
+        width: 215px;
+        height: auto;
+        margin: 15px;
+    }
 }
 
 @media screen and (max-width: 992px){
@@ -450,10 +549,18 @@
     }
 
     .circleImages {
-        height: 200px;
-        width: 200px;
+        height: 140px;
+        width: 140px;
         border-radius: 50%;
         margin: 3vw;
+    }
+
+    .collabBox{
+        margin-bottom: 50px;
+    }
+
+    .collabPerson{
+        font-size: 14px;
     }
 
     .bridge{
@@ -531,7 +638,7 @@
         font-size: 140px;
     }
 
-    .deloitte{
+    .holt{
         width: 450px;
         height: 236px; 
         transition: all 0.3s ease-in-out;
@@ -547,6 +654,12 @@
         width: 240px;
         height: 182px;
         transition: all 0.3s ease-in-out;
+    }
+
+    .sponser{
+        width: 170px;
+        height: auto;
+        margin: 15px;
     }
 }
 
@@ -568,15 +681,18 @@
     }
 
     .circleImages {
-        height: 160px;
-        width: 160px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         margin: 3vw;
     }
 
+    
+
     .collabPerson{
-        font-size: 16px;
+        font-size: 10px;
     }
+
     
     .bridge{
         display: none;
@@ -665,7 +781,7 @@
         font-size: 100px;
     }
 
-    .deloitte{
+    .holt{
         width: 300px;
         height: 158px; 
     }
@@ -678,6 +794,10 @@
     .tech{
         width: 168px;
         height: 127px;
+    }
+
+    .sponserRow{
+        flex-direction: column;    
     }
 }
 
@@ -699,16 +819,21 @@
     }
 
     .circleImages {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         border-radius: 50%;
-        margin: 4vw;
+        margin: 2vw;
     }
 
     .collabPerson{
-        font-size: 15px;
+        margin-left: 30px;
+    }
+
+    .collabPerson{
+        font-size: 8px;
         padding: 0px;
     }
+
     
     .bridge{
         display: none;
@@ -781,6 +906,7 @@
     }
     
     
+    
     .dataText{
         width: 280px;
         text-align: left;
@@ -796,13 +922,10 @@
 
     .sponserTitle{
         font-size: 60px;
+        margin-bottom: 30px;
     }
 
-    .sponserCol{
-        transform: translateY(100px);
-    }
-
-    .deloitte{
+    .holt{
         width: 250px;
         height: 131px; 
     }
@@ -815,5 +938,10 @@
     .tech{
         width: 168px;
         height: 127px;
+    }
+
+    .sponser{
+        width: 150px;
+        height: auto;
     }
 }  

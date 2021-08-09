@@ -20,8 +20,9 @@ import holt from "../assets/holt.png";
 import next from "../assets/Sponsor_Next36.png";
 import tech from "../assets/Sponsor_TechStars.png";
 import haply from "../assets/Haply.png";
-import {pointer} from "../assets/deconstructed/phone graphic/Phone_graphic-9.png"
-import {singleCloud} from "../assets/deconstructed/phone graphic/Phone_graphic-10.png"
+import pointer from "../assets/deconstructed/phone graphic/Phone_graphic-9.png"
+import cloud from "../assets/deconstructed/phone graphic/Phone_graphic-10.png"
+import threeCloud from "../assets/deconstructed/Landing Page graphic/Landing_page_graphic-9.png"
 import { Slide } from "react-slideshow-image";
 
 export class Collaborators extends Component {
@@ -98,6 +99,9 @@ export class Collaborators extends Component {
 
 
         <div className="collabRow">
+        <img src={cloud} className="cloud4"  alt="cloud"/>
+        <img src={cloud} className="cloud5"  alt="cloud"/>
+        <img src={cloud} className="cloud"  alt="cloud"/>
         <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
@@ -120,11 +124,7 @@ export class Collaborators extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={speaker2}
-              className="circleImages borderDarkRed"
-              alt="Melike Erol-Kantarci"
-            />
+            <img src={speaker2} className="circleImages borderDarkRed" alt="Melike Erol-Kantarci"/>
           </a>
             <p>Melike Erol-Kantarci,</p>
             <div className="collabDescription">
@@ -139,11 +139,7 @@ export class Collaborators extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={speaker3}
-              className="circleImages borderRed"
-              alt="Lorraine McGill BK"
-            />
+            <img src={speaker3} className="circleImages borderRed" alt="Lorraine McGill BK" />
           </a>
             <p>Lorraine Donald,</p>
             <div className="collabDescription">
@@ -151,6 +147,8 @@ export class Collaborators extends Component {
             <p>Engineering Career Centre</p>
             </div>
           </div>
+          <img src={cloud} className="cloud6"  alt="cloud"/>
+          <img src={pointer} className="redPointer"  alt="red pointer"/>
           </div>
 
 
@@ -200,10 +198,12 @@ export class Collaborators extends Component {
             <p>Hopper</p>
             </div>
           </div>
+          <img src={cloud} className="cloud2"  alt="cloud"/>
           </div>
 
 
           <div className="collabRow">
+          <img src={cloud} className="cloud3"  alt="cloud"/>
           <div className="collabPerson">
             <a
               style={{ borderRadius: "50%" }}
@@ -327,7 +327,7 @@ export class Collaborators extends Component {
                   <img
                     src={haply}
                     className="haplyLogo"
-                    alt="dataperformers logo"
+                    alt="haply logo"
                   />
                 </a>
                 <p className="dataText">
@@ -341,14 +341,24 @@ export class Collaborators extends Component {
         </div>
         
         <div className="sponsersBox">
+        <img src={threeCloud} className="threeCloud"  alt="three clouds"/>
           <div className="sponserTitle">
             Our <span style={{ color: "#ff0000" }}>Affiliates</span>
           </div>
-          <div className="sponserCol">
-            <a href="https://www.holtaccelerator.ai/" target="_blank" rel="noopener noreferrer" ><img src={holt} className="deloitte" alt="deloitte logo"/></a>
-            <a href="https://www.nextcanada.com/next-36/" target="_blank" rel="noopener noreferrer" ><img src={next} className="next" alt="next logo"/></a>
-            <a href="https://www.techstars.com" target="_blank" rel="noopener noreferrer" ><img src={tech} className="tech" alt="tech logo"/></a>
+          <div className="sponserRow">
+            <a href="https://www.dataperformers.com/" target="_blank" rel="noopener noreferrer" ><img src={data} className="dataLogo sponser" alt="dataperformers logo"/></a>
+            <a href="https://www.notostechnologies.com/" target="_blank" rel="noopener noreferrer" ><img src={notos} className="notosLogo sponser" alt="notos technologies logo"/></a>
+            <a href="https://www.hopper.com/" target="_blank" rel="noopener noreferrer" ><img src={hopper} className="hopperLogo sponser" alt="hopper logo"/></a>
+            <a href="https://haply.co" target="_blank" rel="noopener noreferrer" ><img src={haply} className="haplyLogo sponser" alt="haply logo"/></a>
           </div>
+
+          <div className="sponserRow">
+            <a href="https://www.techstars.com" target="_blank" rel="noopener noreferrer" ><img src={tech} className="tech sponser" alt="tech logo"/></a>
+            <a href="https://www.holtaccelerator.ai/" target="_blank" rel="noopener noreferrer" ><img src={holt} className="holt sponser" alt="holt logo"/></a>
+            <a href="https://www.nextcanada.com/next-36/" target="_blank" rel="noopener noreferrer" ><img src={next} className="next sponser" alt="next logo"/></a>
+          </div>
+          <img src={threeCloud} className="threeCloud2"  alt="three clouds"/>
+
         </div>
       </div>
     );
