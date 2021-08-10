@@ -12,7 +12,8 @@
 .faqContainer{
     width: 100%;
     min-height: 45vw;
-    margin-top: 20vw;
+    margin-top: 0;
+    padding-top: 100px;
     display: flex;
     flex-direction: row-reverse;
     background-color: #010516;
@@ -22,14 +23,15 @@
 
 .faqTextColumn{
     display: flex;
-    flex-basis: 40%;
+    flex-basis: 66%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
 }
 
 .faqImgColumn{
     display: flex;
-    flex-basis: 40%;
+    flex-basis: 34%;
     justify-content: center;
 }
 
@@ -57,79 +59,47 @@
 }
 
 .faqTitle{
+    padding-top: 60px;
     color: white;
-    font-size: 12vw;
+    background-color: #010516;
+    font-size: 8vw;
     font-family: themeFont;
     src: url("./iceland-regular.ttf");
+    text-align:center;
 }
 
-.faqSubtitle{
-    color: white;
-    font-size: 5vw;
-    font-family: themeFont;
-    src: url("./iceland-regular.ttf");
+
+
+.participantBox{
+    height: 550px;
+    width: 50%; 
+    border-radius: 20px;
+    background-color: #ffd1c3;
+    position: absolute;
+    /* margin: auto; */
+    text-align: center;
+    z-index: 1;
 }
 
-.arrow-down {
-    width: 0; 
-    height: 0; 
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid white;
-}
-.faqButton {
-    color: rgb(180, 178, 178);
-    font-size: 40px;
-    width: 100%;
-    font-family: themeFont;
-    src: url("./iceland-regular.ttf");
-    background-color: transparent;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
+.participantSlide{
+    height: 400px;
+    width: 50%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: left;
-    color: white;
+    /* transform: translate(-40px, 20px); */
 }
-.rightButtonArrow {
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    margin: 20px;
-}
-.clicked {
-    transform: rotate(180deg);
-}
-.faqclicked {
-    color: #ff0000;    
-    border-bottom: 1px solid #ff0000;
-}
-.faqInfo {
-    margin-left: 5%;
-    font-size: 25px;
-    padding: 10px;
-    padding-bottom: 20px;
-    color: white;
-}
-.faqButton:hover {
-    background-color: rgba(255, 255, 255, 0.055);
-    border-radius: 5px;
-}
+
 
 @media screen and (min-width: 1800px){
-    .faqButton{
-        font-size: 60px;
-        padding: 20px;
-    }
 }
 
 @media screen and (max-width: 1200px){
     .faqContainer {
         flex-direction: column;
-        margin-top: 250px;
+        margin-top: 0px;
+        padding-top: 70px;
     }
     .faqImgColumn {
         display: none;
@@ -138,32 +108,66 @@
         padding-right: 5%;
         padding-left: 5%;
     }
+
+    .participantBox{
+        height: 350px;
+        width: 80%; 
+        margin: auto;
+    }
+
+    .participantSlide{
+        height: 280px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+    .faqContainer {
+        padding-top: 50px;
+    }
+    .participantBox{
+        height: 350px;
+        width: 80%; 
+        margin: auto;
+        
+    }
+
+    .participantSlide{
+        height: 90%;
+        margin-bottom: -20px;
+    }
 }
 
 @media screen and (max-width: 767px){
     .faqContainer{
         padding-top: 20px;
-        margin-top: 250px;
+        margin-top: 0px;
     }
 
-    .faqButton {
-        font-size: 30px;
+    .participantBox{
+        height: 230px;
+        width: 80%; 
+        margin: auto;
     }
-    .faqInfo {
-        font-size: 15px;
+
+    .participantSlide{
+        margin-bottom: -150px;
     }
 }
 
 @media screen and (max-width: 480px){
     .faqContainer{
-        margin-top: 100px;
+        margin-top: 0px;
     }
-    .faqButton {
-        font-size: 20px;
-        padding: 0px;
+
+    .participantBox{
+        height: 180px;
+        width: 80%; 
+        margin: auto;
     }
-    .faqInfo {
-        font-size: 16px;
-        padding: 0px;
+
+    .participantSlide{
+        margin-bottom: -210px;
     }
 }
