@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import phoneImage from '../assets/constructed/Phone_graphic.png';
 import caseImage from '../assets/constructed/Case_comp_Graphic.png';
 import circuitBoard from '../assets/Circuit_board 4.png';
+import oldCasePdf from '../assets/Hopper_Case.pdf'
+import oldCaseCover from '../assets/Hopper_Case_Study_Cover.png'
 
 export class event extends Component {
   state = {
@@ -141,6 +143,13 @@ export class event extends Component {
                 {/* Case Comp */}
                 <div id="CaseContent" className="eventTwoColumns" style={{display:"none"}}>
                   <div className="arrowLeft" onClick={this.NetworkActive}></div>
+                  <div className="eventImgColumn2">
+                  <div style={{color:"#ff0000"}} className="curiousTop">Curious?</div>
+                  <div className="curiousBottom">Check out one of our previous cases</div>
+                  <a href={oldCasePdf} target="_blank">
+                  <img src={oldCaseCover} className="eventBoxImg3" alt="previous hopper case" ></img>
+                  </a>
+                  </div>
                   <div className="eventTextColumn">
                     <div className="eventBoxPhrases">Compete.Collab.<br></br><span>Create</span></div>
                     <div className="eventBoxText">  
@@ -148,7 +157,7 @@ export class event extends Component {
                     </div>
                   </div>
                   <div className="eventImgColumn">
-                    <img src={caseImage} className="eventBoxImg" alt="Individual with analytics board"></img>
+                    <img src={caseImage} className="eventBoxImg2" alt="Individual with analytics board"></img>
                   </div>
                 </div>
               </div>
