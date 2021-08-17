@@ -156,7 +156,7 @@ export class Collaborators extends Component {
             <div className="collabPerson">
             <a
               style={{ borderRadius: "50%" }}
-              href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+              href="https://www.linkedin.com/in/alielawad/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -171,7 +171,7 @@ export class Collaborators extends Component {
             <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
-            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            href="https://www.notostechnologies.com/about-us"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -186,7 +186,7 @@ export class Collaborators extends Component {
           <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
-            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            href="https://www.linkedin.com/in/alex-campeau-ab83532/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -207,7 +207,7 @@ export class Collaborators extends Component {
           <div className="collabPerson">
             <a
               style={{ borderRadius: "50%" }}
-              href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+              href="https://www.linkedin.com/in/brunomorency/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -222,7 +222,7 @@ export class Collaborators extends Component {
             <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
-            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            href="https://www.linkedin.com/in/gabs2019/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -237,7 +237,7 @@ export class Collaborators extends Component {
           <div className="collabPerson">
           <a
             style={{ borderRadius: "50%" }}
-            href="https://www.mcgill.ca/engine/resources/mcgill-engine-centre-support/team"
+            href="https://www.linkedin.com/in/sanch-gupta/"
             target="_blank"
             rel="noopener noreferrer"
           >
