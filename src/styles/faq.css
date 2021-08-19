@@ -71,7 +71,7 @@
 
 
 .participantBox{
-    height: 550px;
+    height: 350px;
     width: 50%; 
     border-radius: 20px;
     background-color: #ffd1c3;
@@ -82,17 +82,65 @@
 }
 
 .participantSlide{
-    height: 400px;
-    width: 50%;
+    height: 250px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 10px;
     /* transform: translate(-40px, 20px); */
+}
+
+.participantImageContainer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.participantImage{
+    width: 160px;
+    height: 160px;    
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.participantText{
+    width: 300px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "mainText";
+    font-weight: bold;
+    src: url("./Montserrat-Regular.ttf");
 }
 
 
 @media screen and (min-width: 1800px){
+    .participantBox{
+        height: 750px;
+    }
+
+    .participantSlide{
+        height: 660px;
+    }
+
+    .participantImageContainer{
+        width: 280px;
+        height: 280px;
+    }
+    
+    .participantImage{
+        width: 280px;
+        height: 280px;    
+    }
+    
+    .participantText{
+        width: 400px;
+        text-align: left;
+        font-size: 30px;
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -110,15 +158,9 @@
     }
 
     .participantBox{
-        height: 350px;
-        width: 80%; 
-        margin: auto;
+        width: 70%; 
     }
 
-    .participantSlide{
-        height: 280px;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 992px){
@@ -126,48 +168,79 @@
     .faqContainer {
         padding-top: 50px;
     }
-    .participantBox{
-        height: 350px;
-        width: 80%; 
-        margin: auto;
-        
-    }
 
-    .participantSlide{
-        height: 90%;
-        margin-bottom: -20px;
+    .participantBox{
+        width: 80%; 
     }
 }
 
 @media screen and (max-width: 767px){
     .faqContainer{
         padding-top: 20px;
+        padding-bottom: 80px;
         margin-top: 0px;
     }
 
     .participantBox{
-        height: 230px;
-        width: 80%; 
-        margin: auto;
+        width: 90%;
+        height: 260px;
+        margin-top: 70px;
+        margin-bottom: 20px;
     }
 
     .participantSlide{
-        margin-bottom: -150px;
+        height: 170px;
+    }
+
+    .participantImageContainer{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .participantImage{
+        width: 100px;
+        height: 100px;    
+    }
+    
+    .participantText{
+        width: 200px;
+        text-align: left;
+        font-size: 15px;
+        margin-left: 15px;
     }
 }
 
 @media screen and (max-width: 480px){
     .faqContainer{
         margin-top: 0px;
+        padding-bottom: 100px;
     }
 
+
     .participantBox{
-        height: 180px;
-        width: 80%; 
-        margin: auto;
+        width: 95%;
+        height: 250px;
+        margin-top: 100px;
     }
 
     .participantSlide{
-        margin-bottom: -210px;
+        height: 160px;
+    }
+
+    .participantImageContainer{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .participantImage{
+        width: 80px;
+        height: 80px;    
+    }
+    
+    .participantText{
+        width: 200px;
+        text-align: left;
+        font-size: 13px;
+        margin-left: 10px;
     }
 }
